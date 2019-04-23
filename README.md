@@ -1,2 +1,2 @@
 # HowDoIPlay-REDO
-Development build for www.howdoiplay.com website re build in React
+Development build for www.howdoiplay.com website in React.Js
