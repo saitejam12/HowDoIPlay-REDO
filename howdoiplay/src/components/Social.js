@@ -22,9 +22,9 @@ export default function Social() {
           id="paypal-button"
           className="paypal"
           title="Help support the site!"
-          onClick={() => {
-            "window.location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9YV8EDYT2T3NS'";
-          }}
+          // onClick={
+          //   "window.location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9YV8EDYT2T3NS'"
+          // }
         >
           <span className="paypal-button-logo"></span>
         </button>

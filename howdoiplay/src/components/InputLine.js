@@ -29,18 +29,18 @@ const quotes = [
   [`BET ALL MY RARES AND GOT SOME DOPE`, `HATS. TIME TO USE 'EM.`],
   [`I HAVE NO IDEA HOW TO PLAY`, `, BUT I WANT THAT BONUS MANGO.`],
   [`GOT AN UNTRADEABLE SET FOR`, `. GUESS I'LL LEARN HOW TO PLAY 'EM.`],
-  [`I'M PLAYING`, `? <font color='green'>+25</font>, HERE I COME.`],
-  [`I'M PLAYING`, `? <font color='indianred'>-25</font>, HERE I COME.`],
+  [`I'M PLAYING`, `?, +25, HERE I COME.`],
+  [`I'M PLAYING`, `? -25, HERE I COME.`],
   [`WHO NEEDS VERSATILITY? I'M THE`, `MASTER.`],
   [`I NEED THE LEVEL 25 DOTA PLUS VOICE LINE ON`, `.`],
   [`ALL THE BOOSTERS ARE SPAMMING`, `? THEY MUST BE ON TO SOMETHING.`],
   [
-    `<img src='./assets/media/OSfrog.png' alt='OSfrog'> LE BALANCED`,
-    `HERO <img src='./assets/media/OSfrog.png' alt='OSfrog'>`
+    `<img src={'./assets/media/OSfrog.png'} alt='OSfrog'> LE BALANCED`,
+    `HERO '<img src={'./assets/media/OSfrog.png'} alt='OSfrog'>`
   ],
-  [`But is `, `good as pos 6 🤔?`],
+  [`But is `, `good as a Pos 6 🤔?`],
   [
-    `one`,
+    `One`,
     `Ye.. im DED`
   ] /*,
           ["GOOD TIPS MATE REAL USEFUL, SEE U AT", "J"],
@@ -67,9 +67,9 @@ const random = quotes[Math.floor(Math.random() * quotes.length)];
 console.log(random);
 const InputLine = () => {
   return (
-    <div>
+    <div className="inputline">
       <form id="heroinput-form" action="/" method="get">
-        <span id="hero-input-quote-start">{random[0]}</span>
+        <span id="hero-input-quote-start">{random[0]} </span>
         <span id="heroinput">
           <input
             className="typeahead"
@@ -79,12 +79,14 @@ const InputLine = () => {
             aria-label="Hero Name"
           />
           <span id="randomhero">
-            <div />
+            <a href="#" title="Random Hero (No Bonus Mango)">
+              
+            </a>
           </span>
           <span className="arrow" />
         </span>
-        <span id="hero-input-quote-end">{random[1]}</span>
-        <input type="submit" value="" />
+        <span id="hero-input-quote-end"> {random[1]}</span>
+        <input type="submit" value="" style={{ visibility: "hidden" }} />
       </form>
     </div>
   );

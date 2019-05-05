@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import "./assets/styles/minimap-icons.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 export default class HeroList extends Component {
   render() {
     return (
-      <div>
+      <div className="grey">
         <ul className="herolist">
           <li className="herolist__hero abaddon">
             <a

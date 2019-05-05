@@ -1,21 +1,20 @@
 import React from "react";
-
 import InputLine from "./InputLine";
 import Tips from "./Tips";
-import HeroList from "./HeroList";
-import Social from "./Social";
-
-import "./assets/styles/style.css";
+import HeroSample from "./HeroSample";
+//import HeroList from "./HeroList";
+//import Social from "./Social";
 
 function App() {
   return (
     <div className="App">
       <InputLine />
       <Tips />
-      <HeroList />
-      <Social />
+      <HeroSample />
     </div>
   );
 }
 
 export default App;
+
+//<Social />

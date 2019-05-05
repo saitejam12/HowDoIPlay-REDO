@@ -186,8 +186,8 @@ a:hover {
   align-items: baseline;
 }
 
-#inputline {
-  padding: 130px 10px 15px;
+.inputline {
+  padding: 130px 10px 15px 10px;
   line-height: 1.5;
   white-space: nowrap;
 }
@@ -584,7 +584,7 @@ a:hover {
 .herolist {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px 16px 14px;
+  padding: 20px 16px 14px 16px;
   border-top: solid 1px #ebebeb;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
