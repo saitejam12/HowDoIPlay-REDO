@@ -1,6 +1,6 @@
 import React from "react";
 
-const Abbadon = () => {
+const Abaddon = () => {
   return (
     <div class="hero hero-abaddon" data-patch="684">
       <div class="herotitle">
@@ -135,4 +135,4 @@ const Abbadon = () => {
   );
 };
 
-export default Abbadon;
+export default Abaddon;

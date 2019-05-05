@@ -661,7 +661,7 @@ button.paypal:hover {
 
 #social {
   padding: 45px 0px;
-  position: absolute;
+  position: absolute fixed;
   bottom: 0px;
   width: 100%;
 }

@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-function Child({ match }) {
-  return (
-    <div>
-      <h3>ID: {match.params.id}</h3>
-    </div>
-  );
-}
-
+import React from "react";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Abaddon from "./tips/Abaddon";
+import Alchemist from "./tips/Alchemist";
 function HeroSample() {
   return (
     <Router>
       <div className="grey">
+        <div className="tipcontainer">
+          <Switch>
+            <Route path="/Abaddon" component={Abaddon} />
+            <Route path="/Alchemist" component={Alchemist} />
+          </Switch>
+        </div>
         <ul className="herolist">
           <li className="herolist__hero abaddon">
             <Link
@@ -23,16 +23,15 @@ function HeroSample() {
             </Link>
           </li>
           <li className="herolist__hero alchemist">
-            <a
+            <Link
               className="herolist__hero__link"
               title="Alchemist"
-              href="/?Alchemist"
+              to="/Alchemist"
             >
               <span className="herolist__hero__name">Alchemist</span>
-            </a>
+            </Link>
           </li>
         </ul>
-        <Route path="/:id" component={this.child} />
       </div>
     </Router>
   );

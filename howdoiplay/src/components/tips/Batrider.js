@@ -1,0 +1,100 @@
+import React from "react";
+
+const Batrider = () => {
+  return (
+    <div class="hero hero-batrider" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABwgEBgkFA//EACkQAAEEAQIGAQUBAQAAAAAAAAECAwQFBgARBxITFCFRMQgVQUJxMpH/xAAaAQADAQEBAQAAAAAAAAAAAAADBQcGBAIB/8QAKBEAAQQBAwMEAgMAAAAAAAAAAQACAwQFBhEhEhMxBxQiQRVRMmGB/9oADAMBAAIRAxEAPwDLuC/kEuwareykx3VKAUXE7JSPe58az1LS9q1MImsO5XPZzdWCIyl4ICNk/K1cP47NcjoMWLje79okfKfQ86957TFvDy9p3lUT01y+MytfvHg/35U3AeIFvkMly5unZc2mqXk9unbdIWPgnWG1BHP0Bh8qmjJ1z1RQ8NRnx+JJus4ZyqJVTpglkrRJQ2SlJSnYHx6/miUs57ar2jH8gFOruF7lsvbIACVX8wzu/sEXULImy0qHYluK+UqT1RzIA+QPWtDZyxyFSIOHLftZrJ0hXnIadwu3heUFCRuoAAayFuPlCiYh5xVwfPMXiPWdzBiirec2Q5E26rI9qIJ1UbHqcLlkiqegfSBpX03x1OINtM65DwSTwl1iZW8792h5GiPaRIjKlVklY2V8ePOqzpvUEWarP940Ocwf6sNrDSsun7TfYvc1jz9eFA4V5bk8qrymury2a+U8tYYSPzvqF6w7L7LXFUzSAkA5PgJ2sX4iZVWU1JJqLEY+1VM9GxZdQFBSt/R96xLoGdw7jdPJS6V5PhVT6octvGGsOZshR9vbtiWmRBSlJWdz/sp28+NMMVAD1lpKVWGE/Ej7QRo8y6TaeV3Y7e9fLULkWCsih9QHHyvnVL9ZXWEaT3SdlBJ5t9K8BgZXzBz2kbIuRyQA+JSEtZMOwUp7lO3MOQ/sk6sGHsux9jcctI2IXBlAzJ4wNkOz2ncFe/DrIXa6RaCI4WEBBfQN/R320pz9Zkzg7bjdedMS9Ie0/pPPTZHjvFDDK37Q6muvwyI0tjn5ApfxzK321jLNaShNs7+KdwStsRbt8hC7j7hF/Q1zD1laS7BmiQ23GCSVsoK1H9/I/bXfhbTXylrW+UJ0LREJC7n9Jaa+5ltgArO2ns1ZpTCsAQh48SoDmJV/dOmjZYl4HSuY8T4G/j1o7VwTFSoK1IDpQpSCU+SDtoco3RaxIB2V1p5cuI7D7WVIjcyU83SWpG//AA64rbA5vITRpLS3b9LWPi3HjufRq3LcYZXKX0iuSpILh8flXzqZ4dx/KbJg3ysoYIBcQCNxqhy+E+qL/9k="
+                data-src="./assets/media/heroes/large/batrider.jpg"
+                alt="Batrider"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Batrider</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Don't just toss Napalms casually. Go out of your way to make sure
+            you're keeping stacks up on the enemy hero. The difference between 2
+            stacks and 4 stacks can be the difference between suggesting the
+            enemy eat a Tango or go back to the fountain.
+          </li>
+          <li>
+            Sticky Napalm gives flying vision around its cast point. Keep this
+            in mind if Firefly is down and you need to check the Rosh pit, high
+            grounds, or are trying to find a juking enemy.
+          </li>
+          <li>
+            You can click on an enemy hero to see how many Magic Stick/Wand
+            charges they have. If they're sitting on 10, it's probably a bad
+            idea to go for a kill.
+          </li>
+          <li>
+            Napalm is relevant all game long because turn speed is relevant all
+            game long. Just because you're not laning anymore doesn't mean you
+            should stop using the spell. It still gives vision, it still raises
+            your damage, and enemies will still find it annoying as hell to turn
+            in molasses.
+          </li>
+          <li>
+            Sticky Napalm has rules against proccing on most item DoTs from
+            Batrider (no Radiance, Urn/Vessel, or Orb of Venom), but Meteor
+            Hammer does benefit from Sticky Napalm damage.
+          </li>
+          <li>
+            Pay attention to the buff icon timer for Firefly. When it ends you
+            need to make sure you won't be stuck somewhere you don't want to be.
+          </li>
+          <li>
+            Don't feel obligated to drag someone as far as you can when you
+            Flaming Lasso someone. If your team is nearby or you're 1v1ing, your
+            time may be spent better trying to lay on additional Napalm stacks.
+          </li>
+          <li>
+            Or if you grabbed the enemy while they were facing away from the
+            direction they'd like to escape, you may prefer spending the last
+            second of Lasso placing one Napalm to slow them when they try to
+            turn around.
+          </li>
+          <li>Batrider has 1200 day vision, most heroes have 1800.</li>
+          <li>
+            Enemies can see your Firefly trail even when you're under Smoke.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Buy a Magic Stick ASAP against this fool. You can get one from the
+            side shop.
+          </li>
+          <li>
+            Once you get 3-4 stacks of Napalm on you in lane, back off and let
+            the debuff time out. You can check how many stacks you have by
+            looking at your current debuffs.
+          </li>
+          <li>
+            Activating Phase Boots on melee heroes can improve your turn rate
+            when dealing with Sticky Napalm.
+          </li>
+          <li>
+            Don't hug the nearby tree-line when defending T2 towers. Batriders
+            love hovering hidden over the trees that surround T2s to get easy
+            Lassos.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Batrider;

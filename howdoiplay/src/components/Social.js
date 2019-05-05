@@ -1,4 +1,7 @@
 import React from "react";
+import "./assets/styles/minimap-icons.css";
+import "./assets/styles/normalize.css";
+import "./assets/styles/style.css";
 
 const donationquotearray = [
   //   `You don't even need to donate, <audio id='tts' preload='none'><source src='./assets/media/texttospeech.mp3' type='audio/mpeg'><source src='./assets/media/texttospeech.ogg' type='audio/ogg'></audio><a title='The Ballad of Admiral Bulldog' href='#' onclick='tts.play();return false;'>I'll give you the text-to-speech for free</a>`,

@@ -1,0 +1,128 @@
+import React from "react";
+
+const Bloodseeker = () => {
+  return (
+    <div class="hero hero-bloodseeker" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABgcEBQgDCf/EADEQAAAFAgUBBgQHAAAAAAAAAAECAwQFBhEABxITITEIFSJBUWEUI3GRMjM2QmKBof/EABsBAAMBAAMBAAAAAAAAAAAAAAMFBgQAAQcC/8QAKREAAQQBAwMDBAMAAAAAAAAAAQACAwQRBSExEjNRBhOhMkFCYRQVIv/aAAwDAQACEQMRAD8AGu032f6dJSKdQ0FRfctQNT8hHgBtwvHUoc4jK1+RxG2y9EiqQT5bK7gfK8tJ6RnqZErao4WQaCpcNxZEyYj78hikhf1KWvVWxYIPKixVROUEkHLQwuCrK20G62wCdoeCDsUxpWHV5Iy0dbfHladpeck6cZoVbTjwEZJELLs/qHID9cTwe+u7Dzt9irW7o8OqQ/yKTC14+qPwiyncxdiWhlCwh3kZUb4S1BENiiY6bhQRuqWweo42x2OuIu5wldnR215wPpJHyo2f2UdWweqfh2Tl9TrooKpAIDvJgYL2EvXBaVpsv6KS3A5n7TxzJz4qyqKcjneW7p05kEjaU0mwbph9jhz/ALhDShkikATyIVz1+94+Vh7PCrM55xszaZmQTFss2Q1pn2yEV0Dbk2kP5YsoWtHChbJaTskBCLbiIgkG2cLGJby98Z7Awd0100udjp5b8I4jKrdM3CICsoYiobagX6/1hXZpCVmPCstF9Rvp2g8fls4+VofJ6s5mHmVQhIhKVfKrk3VTpAqVAgiHiG4DbjBY4PZjQNUu/wBnYcXnABT5zx7SEUn3dEx6ycjKRaIEepEttbtuQEOmMkdGWZ2TsFNy3Yq4LRuVgugMwK/pRqs2hH5Yho6HWs6MFz6va/TDqV0WcDcrKzT7UjTK/ZqlvI2tsw3j6aqmrFDxiCYgrIOj3E4B+woCPtjSyTASyWIZ/wApYsGYElHYxZTCxZpmAyp+hreYfbHJ29TVo0+T2psHwnRl5UEa2Zp/E0u1kvgDCos7XDjj1xjkaMrYHFvKtqWzTlKFevZui3bDvSonopO4dUgGAqf4eL344wboB54QXOIYB9ycoPqtySdmn0tJtk4+ScG1uGyQaSiYeRG2Dxlobslsxc526GJ7wxSmniw8Wwoodxeheodqy6sllTxSCR1VDpafyxERL9sbpOVFt5CtkkUiwEfZJMNTqxrAHPPngjjsuoO4VeB8uGqcqfyygiXwl4DoOAxJje/FLuiylPU8SBygYN0OB5x9Wu2Uvg7oRbW36gkx8/XA6HbCNdAy9f/Z"
+                data-src="./assets/media/heroes/large/bloodseeker.jpg"
+                alt="Bloodseeker"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Bloodseeker</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Bloodrage increases <i>all</i> damage dealt to/from a hero. This
+            means that spells and items will also deal increased damage if a
+            hero is Bloodraged.
+          </li>
+          <li>
+            You can Bloodrage allied or enemy creeps right before they die and
+            lifesteal off the last hit if you don't want to risk casting it on
+            yourself.
+          </li>
+          <li>
+            At level 2 Bloodrage, you can cast the spell on yourself and a
+            target to double-heal when you kill it.
+          </li>
+          <li>
+            Bloodrage can be used to pop Linken's if enemies are trying to block
+            your Rupture.
+          </li>
+          <li>
+            Bloodrage damage amp works on Roshan. Please warn the person who's
+            tanking Rosh before you use it, though.
+          </li>
+          <li>Blood Rite provides ground vision around its AoE.</li>
+          <li>
+            Enemies can't easily use Blink Dagger if they're Ruptured. It has a
+            pretty long cast range and the debuff lasts a ridiculously long
+            time, so it can be useful to mess with Blinks from an initiator like
+            Tidehunter or Magnus before a team fight begins.
+          </li>
+          <li>
+            Blade Mail can be a worthwhile pickup against Lotus Orbs to force a
+            target to take Rupture damage if you have HP to burn.
+          </li>
+          <li>
+            Agh's Rupture charges don't stack when cast on the same target,
+            it'll just refresh the duration. What'd you expect, they'll bleed
+            twice as hard? C'mon now.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            TP scroll. Seriously. Just TP out if he's ganking you. He can't do
+            anything about it.
+          </li>
+          <li>
+            Consider getting a Magic Stick against Bloodseeker. Chances are he's
+            going to be spamming Bloodrage like crazy in lane and each cast will
+            give you a charge.
+          </li>
+          <li>
+            Get a Mek or Urn on your team and carry around lots of regen. If BS
+            isn't getting Thirsty in team fights, he can't deal much damage.
+          </li>
+          <li>
+            Spirit Vessel is so outrageously value against a BS, it's not even
+            funny. Vessel him before he Bloodrage heals off a target dying and
+            watch him struggle to stay alive in team fights.
+          </li>
+          <li>
+            Blade Mail can be good if you're tanky, especially if he Ruptures
+            you.
+          </li>
+          <li>
+            Lotus Orb can provide a lot of value when placed on your carry since
+            BS will feel uneasy about initiating a team fight with Rupture.
+          </li>
+          <li>
+            Rupture damage is never lethal. You can always walk away when
+            Ruptured no matter how low you get.
+          </li>
+          <li>
+            Remember that he's taking extra damage if he has Bloodrage on, so
+            don't be afraid to fight back.
+          </li>
+          <li>
+            Kiss juking goodbye if there's a Bloodseeker on the enemy team. Once
+            a match you'll find yourself wondering, "HOW DID THEY KNOW I WAS
+            THERE???" Then you'll look up and realize that Bloodseeker was
+            giving his team global vision of your ass when you're under 25% HP.
+          </li>
+          <li>
+            In the same vein, be extremely careful when jungling against an
+            enemy Bloodseeker. If he detects you at a dangerous HP, you can be
+            sure that his whole team will be converging to score a kill on you.
+          </li>
+        </ul>
+        <div class="video-wrapper">
+          <iframe
+            title="Dealing with Bloodseeker"
+            width="672"
+            height="420"
+            src="//www.youtube.com/embed/S1HYih6QYWs"
+            frameborder="0"
+            allowfullscreen="0"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Bloodseeker;
