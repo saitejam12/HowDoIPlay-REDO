@@ -1,0 +1,107 @@
+import React from "react";
+
+const FacelessVoid = () => {
+  return (
+    <div class="hero hero-faceless-void" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAyAAD/7gAhQWRvYmUAZMAAAAABAwAQAwMGCQAAAkMAAALGAAADfv/bAIQACAYGBgYGCAYGCAwIBwgMDgoICAoOEA0NDg0NEBEMDg0NDgwRDxITFBMSDxgYGhoYGCMiIiIjJycnJycnJycnJwEJCAgJCgkLCQkLDgsNCw4RDg4ODhETDQ0ODQ0TGBEPDw8PERgWFxQUFBcWGhoYGBoaISEgISEnJycnJycnJycn/8IAEQgAGwAwAwEiAAIRAQMRAf/EAK8AAAICAwAAAAAAAAAAAAAAAAYHBAUBAgMBAQEBAQEAAAAAAAAAAAAAAAMCBAAFEAACAQQBAgcAAAAAAAAAAAACAwQAAREFEjITECExIzMUBhEAAQMACAUFAQAAAAAAAAAAAQARAiExQRJCAxMEUXGBIjIQYcHhgkMSAAMBAAAAAAAAAAAAAAAAABABESATAQACAgICAQUAAAAAAAAAAAEAESFBMVFxgaHwYZHB0f/aAAwDAQACEQMRAAAAU1/0z6NFxUnDxWJEQ1AQs8Srh9UaQcrM66Nhy2Ecsf/aAAgBAgABBQFds2IceAcsFRZz/9oACAEDAAEFAbWvmxZo8V58RxRYr//aAAgBAQABBQF6RbUBgIsloVEkjY9nqFyAlqxdGqZzP66wQwljEKzlyN6cZ2xH3WyjOzWn21yO6rUsBQ/oooC18i5SEdMn0j/NErb54M6//9oACAECAgY/ARGFR//aAAgBAwIGPwGzX//aAAgBAQEGPwGO4hiomPdaZNaeJTZiO4yBdIBMo8aEVmE50RF/BSvdxFqvxNBUJvSCtHCVO7V5dCtbKNYpVJ5rRqlYncvE0wsUN9t5dsvLLNnJTL/zZYvj0jV1U244ftQfU/bN0ZZldS//2gAIAQIDAT8QfIVKAPDAS0uOkrGnHGpe8p/Jo2z/2gAIAQMDAT8QEjhW4djiGmEfEM2NQ2y5mVrif//aAAgBAQMBPxAUgOC129wGIXkeSKaOKFNdS0VFa3AjCFwFZPvEFXDUpIipLYDKgTDBjPmWI7xnGloPReCl5FriHjXwfkgTpy9xwbG7EubVOXZ1L9UwvJiCbQ5bfkRwWAs9Ev7tVHj9fuVy7G1fEpeD3/RnVGPYhbxPV6+J/9k="
+                data-src="./assets/media/heroes/large/faceless_void.jpg"
+                alt="Faceless Void"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Faceless Void</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            You're invulnerable when using Time Walk. While not always
+            practical, you can use this to run head first into projectiles like
+            Gyrocopter's Homing Missile to evade the stun or use the
+            invulnerability period to dodge an AoE stun like Phoenix's
+            Supernova.
+          </li>
+          <li>
+            Tread switching is especially important to utilize on Void. Time
+            Walk restores flat HP, so you stand to benefit a lot by switching to
+            INT Treads for the mana and going back to STR after rewinding
+            damage.
+          </li>
+          <li>
+            Time Dilation makes Void a very annoying counter for heroes with low
+            cooldown or combo spells like, Timbersaw, Bristleback, Invoker,
+            Lina, Kunkka, Weaver, Queen of Pain, Storm Spirit, Ember Spirit,
+            Terrorblade, Phantom Assassin, and Slark (as long as he doesn't Dark
+            Pact the debuff off first).
+          </li>
+          <li>
+            Time Lock attacks can proc anything that your normal right clicks
+            do, including another Time Lock.
+          </li>
+          <li>
+            Chronosphere reveals invisible units. If an enemy decided to stop
+            fighting you and Shadow Bladed out, cast a Chrono along the path and
+            laugh maniacally when you discover them without any sort of
+            detection.
+          </li>
+          <li>
+            Donkeys in the Dota universe have a stronger grip on space and time
+            than most heroes. Chronosphere will not freeze the enemy courier.
+          </li>
+          <li>
+            Any units owned by you can move around in a Chronosphere. This makes
+            Necrobook or Manta Void viable builds for more deeps in your Chrono.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            AA's Ice Blast can prevent Void from regaining HP through Time Walk.
+          </li>
+          <li>Spirit Vessel reduces the HP Void will gain in Time Walk.</li>
+          <li>Void cannot Time Walk when rooted.</li>
+          <li>The Time Dilation debuff can be purged/dispelled.</li>
+          <li>
+            Eul's is one of the cheapest counters to Chronosphere. Voids rarely
+            go BKB so as long as you're not caught in a Chrono, you should be
+            able to waste a good 2.5s of Chrono time by Cycloning him. Plus, you
+            use it to purge off Time Dilation.
+          </li>
+          <li>
+            Void can freely walk through any Chronosphere. Keep this in mind if
+            you're playing Rubick or trying to be tricky in Ability Draft.
+          </li>
+          <li>
+            This means that enemy Void illusions created by Wall of Replica or
+            Disruption can also move around in Chronosphere.
+          </li>
+          <li>
+            Ward units, like Witch Doctor's Death Ward or Shadow Shaman's Mass
+            Serpent Wards, are frozen when inside the Chronosphere. Weaver Swarm
+            bugs will also instantly fall off and Gyro's Homing Missile will
+            explode when it touches the Chronosphere.
+          </li>
+          <li>
+            Zeus's Nimbus is the one exception since it works normally against
+            Chrono. I guess it... floats over the Chrono or something.
+          </li>
+          <li>
+            Monkey King's Wukong's Command works in any Chronosphere, allied or
+            enemy.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default FacelessVoid;

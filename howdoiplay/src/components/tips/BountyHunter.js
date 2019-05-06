@@ -1,0 +1,122 @@
+import React from "react";
+
+const BountyHunter = () => {
+  return (
+    <div class="hero hero-bounty-hunter" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgABAAMAAwAAAAAAAAAAAAAABwQGCAIFCf/EAC4QAAEDAwIFAgQHAAAAAAAAAAIBAwQABQYHERITISIxMkEUFlFhCBUjU3GB8f/EABkBAAMBAQEAAAAAAAAAAAAAAAQFBgcCA//EACgRAAEEAgEEAQMFAAAAAAAAAAEAAgMEBRESEyIxUUEGITMUIzJxgf/aAAwDAQACEQMRAD8AoTF5gSJrE83iflRT5yoi7C2g+6rWd9Dm0g+FX8+J7VHyfVS4pOCZbJHx0OcixpTJbqLgl0UVqeFSGFxDD9wrPqS3K/Ccf0t9aL5LjuNYPEtL1ttcaOrKuuQAJO1HPKp/lZtnrs9qXu2fSTuoAfxOkD6kYvpzkM2dLdtMR+NblWbZR8IDyLvsvTxvVDhXX2Q9pQUliGOUB3+ryU1XyK4ZPl1ymXBz9WMvIjB7A2HgUrUMLXEEAHvyu7kjJH7j8fCKid4exxOtPBH6QBk35W4sjjRbXZJjbNyckXMU4pxNrsHL+iUhmLgNaT36eqMmcZH+AijCNSflueUeZEauNv5on39VbT3UaAuY39SzYOnJlZgLn9pT9kOpd3bkE5pu4/dYF2aE5MReJSY6d23XpSXHYeOZvGyNOafPtTORmMB+drvrpmt9ew20osJDO5FyJZiW6jv6lWqHFUWCUs9KatybPIofzH8PUi42pLzjEgSkC2Uq584t+3yvD1SrV2P4t21cV8r3cXrGUpOW86yZIRNGoKf3Fdq8GN0m7n7WpdTLs3CmKbMwHUfHkyRD07f1QLq2wjcdkOi4j2s4Fc0YlgSfubEn1Fa8xX0dJ8b44h3yEtWTK7jjBpJtj5RjMeh+RIS9qXuh277pzarw2oe4JEteTPuwJM+ZOIYr697IqvCKr5VKbQxdhIWfZGlFA8K44hqW9ZpLcN6SUu1P9O7u2QvrRGMyDh2yKYvVNHbUI68Y/ACd8z2b8viWuUu3wTXq5i+SprNEAdhe9K2S3i7yj/KXXDYe43DLr7qq0IiCimeRcbXcviuE3cT00kMmZY/GUjJVTbZVWlso/cKqMc4mq1WJ911MJc2cNO9PCr96ZVvxqUzv51OwozOIfGRH0913pXbGilsfhctRO7G14u7gdTg39v4pvSJMaD8SL//Z"
+                data-src="./assets/media/heroes/large/bounty_hunter.jpg"
+                alt="Bounty Hunter"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Bounty Hunter</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Shuriken will bounce to Tracked targets even if the initial target
+            isn't Tracked. Try hitting a non-Tracked unit first (like a creep)
+            to reach a distant target.
+          </li>
+          <li>
+            Shadow Walk has a visible cast animation, even if you're invisible
+            when you cast it. If your invis is about to run out and you're
+            quietly following someone, run into the fog to recast it, otherwise
+            the enemy hero will see a random dust cloud appear at your location.
+          </li>
+          <li>
+            Shadow Walk has a brief fade time at all levels. If you attack
+            something during the fade time, you'll get the movement speed slow
+            without dispelling your invis. The fade time is only long enough for
+            this to work at early levels of Shadow Walk, though.
+          </li>
+          <li>Couriers respawn after 120 seconds.</li>
+          <li>
+            Like all invis spells, you can cast Shadow Walk while you're
+            channeling a TP.
+          </li>
+          <li>
+            Also like all invis spells, you can pick up, drop, or attack items
+            without losing invis.
+          </li>
+          <li>
+            If you're prowling around an area that you think might be sentry
+            warded, try intentionally forcing creep aggro while invis by right
+            clicking a hero. This is a quick way to confirm if the enemy has
+            true sight or not.
+          </li>
+          <li>
+            Another way to confirm is through heroes who go into 'attack
+            stances' like Brew, Jugg, Abaddon, or listening to see if enemies
+            say deny lines even though there is no one else in your lane. If
+            these things happen for no good reason, they can see you.
+          </li>
+          <li>
+            Casting Track doesn't break Shadow Walk invisibility, but does break
+            other sources of invis.
+          </li>
+          <li>
+            All attacks from your hero on a Tracked target have a crit
+            multiplier.
+          </li>
+          <li>
+            Hover over the Track debuff icon on an enemy to see how much gold
+            they have. You can alt-click the debuff to announce it to your
+            teammates.
+          </li>
+          <li>You can earn Track gold off Aegis deaths.</li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Many (bad) Bounty Hunters will blow Shuriken the second they start
+            ganking you. If they do, just TP out now that he can't cancel your
+            channel.
+          </li>
+          <li>
+            Manta, Lotus Orb, or Guardian Greaves can all purge Track. Slark's
+            Dark Pact, Naga's Mirror Image, PL's Doppelganger can also purge
+            Track. Allied targeted purges/dispels like Aphotic Shield, Press the
+            Attack, and Fortune's End also work.
+          </li>
+          <li>
+            Pay attention to your buff icons when there's a BH on the enemy
+            team. You can't see the giant flare when it's on you, but you can
+            see the Tracked icon in your buffs.
+          </li>
+          <li>
+            <b>Watch your courier.</b> Watch the path it takes when it's coming
+            to you, watch the path it takes going back, route it over trees,
+            don't send it over commonly warded cliffs, conduct your business
+            quickly at the secret shop, know when the shield is available, and
+            <i>don't let Bounty constantly snipe your donkey.</i>
+          </li>
+          <li>
+            Track gold adds up quickly and is what allows teams with softer
+            carries than yours to wipe you out. Gondars LOVE trades because even
+            though it seems like a 1:1 kill, it's more like a 1.5:1 gold kill.
+          </li>
+          <li>
+            Bounty is at his strongest in the mid game when teams are separated
+            and still squishy, so take initiative with detection. As opposed to
+            other invis heroes like Clinkz and Nyx, Bounty doesn't get any bonus
+            move speed from his Shadow Walk, which makes him easy pickings if
+            you Dust him or if he bumbles into a sentry warded area.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default BountyHunter;

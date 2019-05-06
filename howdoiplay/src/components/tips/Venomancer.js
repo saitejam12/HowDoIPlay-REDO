@@ -1,0 +1,113 @@
+import React from "react";
+
+const Venomancer = () => {
+  return (
+    <div class="hero hero-venomancer" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAABgMFBwgJBP/EADAQAAAFAwMDAQUJAAAAAAAAAAECAwQFAAYRBxIhEzFBcSMyQlFhCBQWFyIzc7LB/8QAGgEBAQEAAwEAAAAAAAAAAAAABQMEAQYHAv/EACwRAAEEAQIEAwkBAAAAAAAAAAEAAgMEEQUSEyExMiIjUQYUJDQ1QWFxscH/2gAMAwEAAhEDEQA/AMlLWWt+X+7Rp45ctwJ+5t7K4ro99s8OX7vL/iw3DNXJcD4UXweruoVhS5o9k5UaMU1MGZKeACpyaPUu1+fiyl6N/LB91qv9nbUxrfFtgaTlW7h64PhVglwbNeKe0ukv06XaxuIz1SPFyU4J6jwLq75O2IUBCVjnG2Xi1eBWT5yZLkM0qzQvhw8jII5H/FSYyMiLwP0hjVtZhccBcC0GLe3F44u1osqYOococG2hn1rZpsLaM0bdmd3d+FGO07hhxHNZZzayz1cUXapzpkMOwR8/WvUYmtbzaEZPYfKea4LsYykfMo3hbkMtHJtgyuAZ4H0qFF8csRrzPzlc2IGzN2uUer3K8uadFy9RBM4piA48j9adq0G1otrFCGqIRgKU9NH172+ZeZgXrtmhFKZXOlnt4rBqtSnZe2KQZLk1TGeql381FJCajbpdsXDW6mzopUpJIwgZU2cB1O3eg59AkhjMUZ8v+Jskhu0dvopauS9HtwRkxIzSTQkoDYCsEW5gANpimycwB3Gs1DThVY4jnn1QN47W4CqXLJ/EPb50xA9D5S570RIpsE+5EwYOmb3TeoVnbpxwtWUGhCNlnj6djQw3STEzgpeQIYf8p+hM7Iif1Vo/ErCaSzERZNm/iK7CAsylX360R7CmAhnAeaKtwm1qwYzpGOaRoubGdzkjdjS37lfjd9nNlmtvLOAESqB+0bIU1afwG5d0XNjUGZJb0XKrMsTO25G/VKrs6AgoPszcd+1FusxzM24Rz7LJWbT1Qu8YA5FZtjCiZsetF5MRRBOFXeREfmNdohW4I/04UUGPu0gnOJBYjkmeOx/FSmA94i/a0QdyJNQRENMrMABEA6o8VDSPqtlSyeIUZaVqKHs+ZSOocyWwB6YjkucD4pDW/lnLifsTW54dNv5if2CupV0eU5TgiWUV2iJfZk7cfDV5Avgr/9k="
+                data-src="./assets/media/heroes/large/venomancer.jpg"
+                alt="Venomancer"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Venomancer</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Veno is a great hero to practice harassing without drawing
+            <a href="https://dota2.gamepedia.com/Lane_creeps#Drawing_aggro">
+              creep aggro.
+            </a>
+            Poison Sting isn't an manually castable attack modifier, but with
+            good aggro control, you can almost have it behave like one.
+          </li>
+          <li>
+            Are you struggling at maintaining creep equilibrium in the laning
+            phase because of your Plague Wards? Watch this instructional video
+            to help solve that problem.
+            <br />
+            <div class="video-wrapper">
+              <iframe
+                title="Dealing with Venomancer"
+                width="672"
+                height="420"
+                src="//www.youtube.com/embed/hbTklp4lknI?rel=0"
+                frameborder="0"
+                allowfullscreen="0"
+              />
+            </div>
+          </li>
+          <li>
+            tl;dw - Use the stop key and use unified unit orders. No one is
+            forcing Plague Wards to constantly attack. Stop them if there are no
+            heroes around, sic 'em all on a creep at the same time to last hit
+            or deny, put them up on cliffs and tell them to shut up so they
+            don't alert an enemy who didn't know you could see them.
+          </li>
+          <li>
+            This is also useful when chasing enemies down with Plague Wards.
+            When you throw one up ahead, don't waste time box-selecting, just
+            issue a unified ctrl+right click on the enemy hero.
+          </li>
+          <li>
+            Plague Ward attacks apply a half-damage Poison Sting debuff, but the
+            slow is the same value as your hero's Poison Sting.
+          </li>
+          <li>
+            Plague Wards have collision and can be used to block narrow paths.
+          </li>
+          <li>Try to deny your Plague Wards in lane.</li>
+          <li>
+            Veno is damn good at harassing enemies in the jungle. Plague Wards
+            block camps, have an awesome cast range, short CD, last forever, and
+            are impossible for enemies to kill quickly enough without blocking a
+            camp themselves.
+          </li>
+          <li>
+            In a team fight, your job is to
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/watch?v=YejxyaFyUHc"
+            >
+              Bell, Biv, and DeVoe
+            </a>
+            every hero in the vicinity. Each of your poisons last for ~15
+            seconds, so you need either your Poison Sting or Venomous Gale on
+            everyone to give a final tick of lethal damage post-Nova.
+          </li>
+          <li>
+            Refreshers are pretty useless on Veno since all his spells are only
+            refreshed when reapplied, they don't stack.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Always be on the lookout for opportunities to deny your allies. You
+            can't deny Poison Sting or Nova, but you can deny allies under
+            Venomous Gale.
+          </li>
+          <li>Venomous Gale and Poison Sting can be dispelled.</li>
+          <li>
+            Poison Sting does not cancel consumable healing. If you're about to
+            die to the damage, use your Salve/Bottle without fear of it getting
+            dispelled.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Venomancer;

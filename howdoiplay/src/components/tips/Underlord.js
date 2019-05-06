@@ -1,0 +1,117 @@
+import React from "react";
+
+const Underlord = () => {
+  return (
+    <div class="hero hero-underlord" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMqaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjUtYzAyMSA3OS4xNTQ5MTEsIDIwMTMvMTAvMjktMTE6NDc6MTYgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTU4QTQ5MEY2OTVBMTFFNjkwNjVDMTJFMENCM0RFQUQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTU4QTQ5MTA2OTVBMTFFNjkwNjVDMTJFMENCM0RFQUQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFNThBNDkwRDY5NUExMUU2OTA2NUMxMkUwQ0IzREVBRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNThBNDkwRTY5NUExMUU2OTA2NUMxMkUwQ0IzREVBRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIABsAMAMBEQACEQEDEQH/xACAAAACAwEAAAAAAAAAAAAAAAAFBgIEBwMBAAIDAQEAAAAAAAAAAAAAAAMEAQIFAAYQAAECBQMCAwYHAQAAAAAAAAECAwAREgQFIRMGMUFRMhRhcYEiMxWhgqIjQ6NEBxEAAwACAQQCAwAAAAAAAAAAAAECEQMhMUESBFGBQhMF/9oADAMBAAIRAxEAPwC29yvH/ZjZoXtkooK0kfKR0jF8XnIvftpx49yxw3Fsgqfvf365FCTqkntrFd2xpFf5yTy6NFsLaoqaVMJpBTPRKRCNX3PQzaSEPlmetC7dsJIW42doOET6w76lNrJm71+xZXyYvynPsY27bt7ZBcVMm4KvA9JRqa9fn1FNarnJXbocShbzSm90VBJ6gHpKL5c8ZyGic9TpY0XM0OLUlR0qHQ++FvanxeUL7NWR041yw2lq/i2b1LxaEkKOhblrGd7Ot0kB1S84fAy4r/obd3YP+vvtpIG0goVrPpA49Vrg19LfjimJNxmFO526tzcKQwylLk3E6rX2mY0tWhTJaMJ4XQWOSs4q85My+ipTICVXVOo3B2hjTTlYYPbOXwdcjlXRkGXNtQaKgUJUikadJTi6mXWe4JupnANayKGGlOo+ZRnQPbFfYSbBMG8ezDGIz6sheoLzbs9xI8T3geyHU4XYhoeLlWCy6nnrVghF9SSGzIIWNZgRWLa4YxrqWTy6Xba1XcXYEglLbKh5lkCQCh3i88h6wlwS47iUNtoUsAuL+YzHjArrLLwsILZXijOVcadcdU3teUJ6REW0RetV1M1XRR/D+v8ACCsz0B7ymk/T+NUEk4IcNr9WNv1c5/5aaf7I7b9EMaMtufcrTd9T5hL1tG1+Xa7++I/EYkdMdKY+n8JwoOIPJltDydPbF0R3P//Z"
+                data-src="./assets/media/heroes/large/underlord.jpg"
+                alt="Underlord"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Underlord</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Enemies don't see your Firestorm or Pit of Malice indicators during
+            the cast animation. The only person you're mindgaming is yourself.
+          </li>
+          <li>
+            Pit of Malice doesn't provide any vision by itself, but you can see
+            its little rooty tendrils shoot up whenever it successfully catches
+            a hero. Only heroes, though, so you can't drop a Pit in the pit to
+            check if Rosh is home.
+          </li>
+          <li>
+            Despite not providing any ground vision, Pit of Malice does provide
+            true sight on invisible targets whenever they get rooted.
+          </li>
+          <li>
+            Pit of Malice doesn't root the entire AoE at fixed intervals, each
+            unit is independently rooted whenever they walk in or stay in the
+            Pit. So an item like Eul's allows you to root a target, Cyclone
+            them, and then immediately have them rooted again when they land.
+          </li>
+          <li>
+            You don't gain Atrophy Aura damage from illusions, ward units, or
+            Undying zombies. Heroes, creeps, or summons only.
+          </li>
+          <li>
+            Fun fact: Enemy summons timing out actually <i>do</i> add to your
+            Atrophy Aura.
+          </li>
+          <li>
+            Agh's only buffs allies with Atrophy Aura's temporary damage, not
+            any permanent damage you've acquired.
+          </li>
+          <li>
+            Heroes that are banished or cycloned will still travel through your
+            Dark Rift as long as they're in the AoE. In fact, cycloning yourself
+            as Underlord during the delay is a popular tactic to help guarantee
+            a smooth Rift.
+          </li>
+          <li>
+            Anything you can Boots of Travel to, you can Dark Rift to. Actually,
+            all the mechanics for Boots of Travel targeting are the same as Dark
+            Rift targeting.
+          </li>
+          <li>
+            Dark Rift will teleport creep-heroes, like Warlock's Golem or Visage
+            Familiars.
+          </li>
+          <li>
+            Unlike Io's Relocate, enemies won't see a TP indicator on their
+            minimap when you Dark Rift. However, they can see the Rift effect on
+            whatever unit you've targeted if they have vision.
+          </li>
+          <li>Dark Rift's teleport doesn't interrupt self or ally channels.</li>
+          <li>
+            When Underlord first came out everyone thought they were geniuses by
+            TPing to an ally during the Rift delay for some sick drive-by escape
+            Rifts. This is still possible, especially with Boots of Travel 2s,
+            but the delay on Rift is just way too high to make it reliable.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>Pit of Malice will root you even when you're invis or smoked.</li>
+          <li>
+            Atrophy Aura reduces stat-based damage, but not raw (green) damage
+            items or talents.
+          </li>
+          <li>Break disables Atrophy Aura.</li>
+          <li>
+            Illusions of Underlord will carry their own Atrophy Aura. Shadow
+            Demon, Terrorblade, and Dark Seer can take advantage of this.
+          </li>
+          <li>
+            If you think you're hot stuff, you can try using repositioning
+            spells, like Vengeful Spirit's Nether Swap or Kunkka's X Marks the
+            Spot, or items, like Force Staff, to try and interfere with the
+            number of passengers escaping in his Dark Rift. It's harder than it
+            sounds since there is no reliable way to time when the Rift delay is
+            ending other than the audio cue.
+          </li>
+          <li>
+            Underlord may seem unkillable at times with the amount of HP he gets
+            from talents and items, so consider building a Spirit Vessel to
+            reduce his survivability.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Underlord;

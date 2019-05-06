@@ -1,0 +1,166 @@
+import React from "react";
+
+const SpiritBreaker = () => {
+  return (
+    <div class="hero hero-spirit-breaker" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABwgJBgIE/8QAMhAAAQMDAgMFBQkAAAAAAAAAAQIDBAAFBhESBxMhFCIxQWEIFUJRciMyMzVScYGRwf/EABoBAAIDAQEAAAAAAAAAAAAAAAQGAgMHBQH/xAAnEQACAgIBAwMEAwAAAAAAAAABAgADBBESBSEiBhMxFEFhcTIzUf/aAAwDAQACEQMRAD8AiY/BVsS8fEVJZXd2jF8G8latN0jSJ6Q7GGgeT6VKyvw7Qag7t8hsSjGA8Trbc58yywpna7a2gSI8UfCfE12egkEHkPIRW9V4Z5AVnwMZi25teIEHtFkkIlQlo0dZWe8g6U2VsDM8y+lQeXH2l4WPNXD3zF7R9k4gaHrzOun8Useprfd4ov2j16F6cMPna33+JIT2k+O83iXenVqSwhQSWE8vybB6A0uJXxj2bTYdwLPjnKajp1Q2TpuNWgaldj8zqanGET2rqm2xkc15R1QfLT51bWPc7SpicdtwzY9dcgwzMIE+G6ll5DiVOuH8LafHWia0ahhxMk7Lmg817x2rzl7cG0HKrXk8K4vygldzsMZXp15aRTIxZBzU7is/T+Z4ONfmIDxO4mMXCReX4b0lPN1QIyyRsUfKlXKuL2kmNGPiU01AIdxQnFqcWpa1FSlHVRPrQsvh9vVsW08OWjQJOvhV5Sc5ckN8T04vcxbcggvSBtSo7CqvMccLAYTbd7lZELuURrmHW5rkeSzFVp2JwtEtK+pVF9SW1V2o7SPRWptsKsw3CnwhxyMu8SLxLb57lsjqkLYQNWjtG7Q9T8qj0FctskFgeCyn1ZbjVYZUWebHQ1ErzVLmU5ZkLjDaYjbk53RA+7qk6f5XmQPeuY/mV4j/AE+Oi/PaCWdDegSXIr6drjZoNl4nU6KOHGxHHyJtvcruI/qj7Is40EF5ATtKe6QoaEUMZ1KpZbh7bLbN4IYa5Mt8GWtaW963mkLJ/cqBrSsVAcVdiZTmWMue+jOclgQbfY88MCFEhEWxZBYbS38I/SBUyoWp9f5B3dnuq5HfeRegEqky1KJKlSnSpR8T3zWdV/f9zXLfgfqYnNvzg/QKHyf5QvC/rn//2Q=="
+                data-src="./assets/media/heroes/large/spirit_breaker.jpg"
+                alt="Spirit Breaker"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Spirit Breaker</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Take advantage of the proximity Greater Bashes you are gifted while
+            Charging. If you're trying to land a stun on a unit that can't be
+            targeted (if it's cycloned, spell immune, banished, Linken's
+            Sphere'd, etc.) line yourself up so that you can cast Charge on a
+            unit behind your intended target so you'll bash them en route.
+          </li>
+          <li>
+            Charge will pop on Linken's Sphere, but you can potentially outplay
+            this by Charging a creep near the wave your target is farming and
+            hope the creeps die so the Charge target will shift to the hero. A
+            substitute Charge will not pop Linken's.
+          </li>
+          <li>
+            If you see an opportunity to gank another lane, consider TPing to
+            the nearest tower or shrine before casting a cross-country Charge.
+            The less time an enemy has to react and reposition, the more
+            successful your ganks will be.
+          </li>
+          <li>
+            You can cast non-targeted items while you're Charging, like Phase
+            Boots, Shadow Blade, Mask of Madness, Smoke of Deceit, or BKB.
+          </li>
+          <li>
+            You can also Tread swap while Charging. So switch to INT Treads
+            before casting and turn back to STR Treads while you're Charging.
+          </li>
+          <li>
+            You can also cast Bulldoze while Charging. Charge applies a Greater
+            Bash on everything you hit and Greater Bash deals damage based off
+            your movespeed, so activating Bulldoze mid-Charge will boost your
+            damage on contact.
+          </li>
+          <li>
+            If you're getting ganked and you can't take the fight, immediately
+            move your camera over to another lane, find a creep or neutral, and
+            Charge it. This is your escape mechanism.
+          </li>
+          <li>
+            Greater Bash's proc chance utilizes{" "}
+            <a href="http://dota2.gamepedia.com/Random_distribution">
+              pseudo-random distribution (PRD).
+            </a>
+            Statistically, about one in every six right clicks should be a Bash
+            with 17%, but PRD encourages a lower likelihood of 'streaks.' If you
+            go six right clicks with no Bash, chances are now much higher that
+            your next right click <i>will</i> Bash thanks to PRD. Try to exploit
+            this by priming right clicks on jungle or lane creeps before going
+            for a gank.
+          </li>
+          <li>
+            Greater Bash is essentially a crit dressed up in a scaling bash.
+            Unfortunately, the only way of amplifying the 'crit' damage is by
+            building move speed, not damage. The plus side is that you have two
+            guaranteed ways of proccing this crit Bash with Charge and Nether
+            Strike.
+          </li>
+          <li>
+            You can Nether Strike the enemy courier. It won't deal any damage,
+            but you will bash it.
+          </li>
+          <li>
+            Probably the best Dust carrier and anti-invis hero you could ask for
+            in pubs. Every time Dust is off cooldown, Charge that Riki and bash
+            him into next Tuesday.
+          </li>
+          <li>
+            Get wards in the enemy jungle. Players will automatically avoid
+            farming in lane once they realize you're becoming a threat and will
+            start farming their jungle. Teach them that there is no sanctuary
+            from the space cow.
+          </li>
+          <li>
+            SB is one of the tankiest level 1 heroes in the game. Take advantage
+            of your chuftiness and don't be afraid of getting into fights early
+            on.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Ward everywhere. You need to always be keeping tabs on Spirit
+            Breaker: Where does he come from, where does he go, who is he
+            ganking, Barathrum Joe.
+          </li>
+          <li>
+            Even though most Spirit Breakers will carry dust, consider getting a
+            Glimmer Cape if he's Charging often. Nearly all of SB's damage is
+            magical and needs to be dealt quickly, so the buffed magic
+            resistance while Glimmered will soak up a lot of the damage.
+          </li>
+          <li>
+            Charge can break Linken's from across the map. In Herald scum pubs
+            this makes Linken's an SB counter, but in RIAA-certified Double
+            Immortal tier, this makes SB a Linken's counter.
+          </li>
+          <li>
+            Remember that SB gets increased status resistance while in Bulldoze.
+            Status resistance affects many things. It also doesn't affect a lot
+            of things you may think it does.
+            <a href="https://dota2.gamepedia.com/Status_resistance">
+              Here's the wiki page with all the interactions.
+            </a>
+          </li>
+          <li>
+            One of the easiest heroes to bait. No SB can resist Charging down a
+            lonely CM quietly farming in lane, so take advantage of the mad
+            cow's blood thirst. After a few failed ganks, the map will open up
+            substantially when he stops Charging on a whim.
+          </li>
+          <li>
+            You can stun SB while he's Charging. This is useful to know when
+            you're getting Charged, but it's also useful when you're ganking SB.
+            Keep a stun in your pocket for when he tries to Charge to another
+            lane to escape.
+          </li>
+          <li>
+            Force Staff and other sources of forced movement will end Charge.
+          </li>
+          <li>
+            You can disable SB while he's in the middle of the cast animation
+            for Nether Strike to interrupt the animation.
+          </li>
+          <li>SB can't cast Charge or Nether Strike when rooted.</li>
+        </ul>
+        <div class="video-wrapper">
+          <iframe
+            title="Dealing with the Space Cow (Spirit Breaker)"
+            width="672"
+            height="420"
+            src="//www.youtube.com/embed/SWYKn14vzRQ"
+            frameborder="0"
+            allowfullscreen="0"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default SpiritBreaker;

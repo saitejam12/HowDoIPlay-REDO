@@ -1,0 +1,206 @@
+import React from "react";
+
+const Slark = () => {
+  return (
+    <div class="hero hero-slark" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABwgJBgQD/8QAMBAAAQMCBAUCBQQDAAAAAAAAAQIDBQQGAAcREhMhIjFBFFEIIzJCYRUXUoFxkdH/xAAbAQACAgMBAAAAAAAAAAAAAAAFBgQHAAIDAf/EAC0RAAICAQICCAYDAAAAAAAAAAECAAMEBRESIRMiIzEyQWFxBiQ0QlGhBxQV/9oADAMBAAIRAxEAPwBHkwFTxqVtDKw7VLSKc+5J5YLskqfcz1zNlLwzPuC1ck4h1YhYpTLUrV+FOK5HX/AwDqxRl5HH+OQlqVZbYOEEJ5kbmFu6cqrtygo2IywswnvU6NMKghy3uLGp/idMSdZ0HCxamyLR4RuTNdI+I8y9+hQnnBPNX7cEBNQ0NmNE05kqxYappun6VIVpu6xrr5wvaTqCtWbcV+JR5RiyBxvwXLsx8xGlydv2HsmXkHWZVcq5JqS3UuH7CdNPAx7df09bWN936kW6opata/b+5R6z4Ny8okuwspw2q4hVRtPUCfxhT/z3dSyc4W/vCthxiSkTSOuQtJPRrCZBy3zxCgcwpsDuMW/mgqvEvcZTWk1o7hLR1lM5cqXIkXrUSVI40pUs4qScdqeRRsDm9AOndIUT/WAGlu9Vp3PVjxrKi1F2X0houTMfL5qnrpdLVBcs5brxqKjbtO5eqEJQdN3YqxL1LUkyqjSV3B79500rSXocWg84k/xA0dx3lHR+cMhDC3mA61siByCU7hosDTyMB9Px6catqal2EM5xcsrtMdC3M5SSkZUUjYepHg0644FdS1gfTp/WOFK9mVMzL8fFHWy8z1vq05ATsWZJmO5JcYVrwRp+MDGU1k8PKduFbAAZmoluty4tyYr2C5K2iyjYthQ3OoWR299MP2p0Xab1X51mIOnXUas3EnUuEW63Koz2YLNE7XPwMRJqeNCoap0dcSen3wu4qCwll7o3ZbNQgV+Z85TrKXJDK3LS0vVXPFuXJMyIdL9UOpLwUsLG4EdxtxAyc3awiG8KhuhHCYkXxk3t+tLt7LeDaYacqn22/R0/2MggJCgPxjbEcgNYZrn17lUi3SrMPaMxR0q2XN8SwjRaDyDpHPUYL41G9Yb8xPydWUZD178hO6jzrviJKqGhrKeti5IlbdM6nkP9/wDMRr8JT3whiZXSLuI7UiSctbiQTqhTw3IPY/R4w5/yJ9IvvEX4AHzp9omFw/Kvax0tfKT6xvpRyHn2wvYY7JY3Z57V5YZh1z9tt/EXvRTrKV68x8oecJ2b9UY76aflFkdLadcr88ph2ucXWOtcctOPniKToT2KtdMErvAg9YLtJ7Q+hmXvMldfKKWd6uKvqPM98N23VEp+k7ufeCubWpuMoFIUpCh5SdMQLO+POB4Z/9k="
+                data-src="./assets/media/heroes/large/slark.jpg"
+                alt="Slark"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Slark</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Dark Pact is a 'nuke' like Lifestealer's Infest can be a 'nuke.'
+            Yes, the spell can deal healthy damage, but that's not its only
+            purpose. Don't yank the Pact ripcord the second you get in melee
+            range of your gank target. Wait for them to turn around, or for
+            their teammate to come in to save them, then pull the trigger and
+            wipe off any potential disable. If you need to use Dark Pact for
+            damage, only use it if you're sure the enemy can't stop you or try
+            to save it for the killing blow.
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://dota2.gamepedia.com/Dispel/Removable_debuffs"
+            >
+              Dark Pact{" "}
+              <b>
+                <i>can't</i>
+              </b>{" "}
+              purge a lot of things despite being a 'strong' dispel.
+            </a>
+            The ones worth remembering from this list are Ancient Apparition's
+            Ice Blast, Bloodseeker's Rupture, Invoker's Deafening Blast, Witch
+            Doctor's Maledict, Razor's Static Link, Ursa's Fury Swipes, Viper's
+            Viper Strike, or Halberd disarm. If you want to get rid of these
+            spells, too bad.
+          </li>
+          <li>
+            Pounce won't latch illusions, making it useful for identifying the
+            real CK/PL/Naga Siren.
+          </li>
+          <li>Pounce can hit invisible units.</li>
+          <li>
+            Leashing enemies with Pounce will cancel their TPs and prevent them
+            from TPing while leashed.
+          </li>
+          <li>
+            Take advantage of your free pathing state in Pounce when you're
+            escaping. Don't just leap along down the lane, jump over a tree line
+            or clear a cliff to create a gap.
+          </li>
+          <li>
+            Essence Shift gifts you with a bonus 'pure damage' (with the STR
+            removal), 'mana burn' (with the INT removal), and sucks off 1 damage
+            from the enemy (with their primary attribute's removal).
+          </li>
+          <li>
+            Capitalize on Essence Shift stacks. Don't sit around and farm after
+            you get a kill, take a tower or TP to another lane and use all the
+            damage you have to continue snowballing.
+          </li>
+          <li>
+            You will lose all Essence Shift stacks on death, including deaths
+            from Aegis. The enemies will still be missing their stats for the
+            full duration, however.
+          </li>
+          <li>
+            You need to be within 300 range of a target dying with the Essence
+            Shift debuff to get the permanent AGI. Or if you get the kill
+            credit, the enemy can be at any range.
+          </li>
+          <li>
+            Shadow Dance is an extremely effective spell for counterwarding. The
+            moment you stop dripping and slow down, you're in enemy vision and
+            the Shadow Dance passive is lost.
+          </li>
+          <li>
+            Enemies can still see the TP particle effect when you start
+            channeling under Shadow Dance.
+          </li>
+          <li>Slark is one of few heroes that has 1800 night vision.</li>
+          <li>
+            If you have slots to burn late game for some reason, an interaction
+            worth noting is that Skadi's slow fully stacks with Orb of Venom's
+            slow.
+          </li>
+          <li>
+            You can't cast Shadow Dance while channeling a TP unlike other invis
+            spells, but you can use Shadow Blade or Shadow Amulet mid-channel.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Dark Pact purges as often as it damages, meaning that there are 10
+            little mini-purges throughout the duration of the spell. So don't
+            stun Slark mid-Pact.
+          </li>
+          <li>Dark Pact can't purge off Halberd's disarm.</li>
+          <li>
+            Ground targeted spells (especially stuns like Lina's LSA, Leshrac's
+            Split Earth, Nyx's Impale, etc.) are highly valuable against Slark
+            for hassling him whenever he activates Shadow Dance.
+          </li>
+          <li>
+            Inexperienced Slarks have a tendency of going for long-range Pounces
+            which are fairly easy to juke. Line yourself up with him when you're
+            getting chased to tease the Pounce out, then move straight left or
+            right and dodge it.
+          </li>
+          <li>
+            Leashes, like roots,
+            <a href="https://dota2.gamepedia.com/Leash#Disabled_by_leashes">
+              disable usage of movement spells.
+            </a>
+          </li>
+          <li>
+            If you manage to move your hero outside the edge of the Pounce
+            leash, it'll break. That means weird things that provide collision,
+            like planting an Iron Branch or getting shoved by an Earthshaker
+            Fissure or Tusk Ice Shards will break the leash. So do other
+            repositioning spells, like getting kicked by an Earth Spirit Boulder
+            Smash, getting Hooked by Pudge, or even a lucky Manta Style
+            rearrangement.
+          </li>
+          <li>
+            If you go for the Manta Style method, your best bet is to activate
+            Phase Boots before Mirror Image to reduce your chances of collision
+            with an illusion pushing you back into the leash.
+          </li>
+          <li>
+            If you go for the Branch planting method, casting the Branch on your
+            portrait is surprisingly reliable at breaking out of a Pounce leash.
+          </li>
+          <li>You can Force Staff out of Slark's Pounce leash.</li>
+          <li>Spell immunity removes Slark's Pounce leash.</li>
+          <li>
+            Try to block Pounce by standing in front of Slark if he's trying to
+            escape.
+          </li>
+          <li>Slark cannot Pounce when rooted.</li>
+          <li>
+            Essence Shift is the long con. You may think you're winning these
+            exchanges in lane because Slark has awful HP, but he's gaining a
+            Slipper of Agility and you're losing an Iron Branch's worth of stats
+            every time you trade hits.
+          </li>
+          <li>
+            You'll get your Essence Shifted stats back when you respawn, but
+            Slark will still have them as well. This is true for Aegis deaths as
+            well.
+          </li>
+          <li>Ghost Scepter can help supports survive Slark ganks.</li>
+          <li>
+            Bloodseeker notably counters the dickens out of Slark. Slark doesn't
+            like to be silenced, he can't Dark Pact off Rupture, and if he loses
+            too much HP he'll make BS Thirsty and give him global true sight,
+            thus preventing Shadow Dance regen.
+          </li>
+          <li>
+            Spirit Breaker is also irritating for Slark to deal with since Dark
+            Pact can't purge off Charge and since Charge will provide vision the
+            whole time, Slark can't regen unless he activates Shadow Dance.
+          </li>
+          <li>
+            Slark can't purge Disruptor's Glimpse, making Glimpse into Static
+            Storm+Kinetic Field often lethal.
+          </li>
+          <li>
+            Naga's Song turns off Slark's Shadow Dance active and reveals him,
+            thus stopping Slark from regening and being invisible. The Dance
+            will continue once the Song ends, though.
+          </li>
+        </ul>
+        <div class="video-wrapper">
+          <iframe
+            title="Dealing with Slark"
+            width="672"
+            height="420"
+            src="//www.youtube.com/embed/N0U7_74DIUI"
+            frameborder="0"
+            allowfullscreen="0"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Slark;

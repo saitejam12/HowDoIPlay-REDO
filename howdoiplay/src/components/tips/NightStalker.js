@@ -1,0 +1,73 @@
+import React from "react";
+
+const NightStalker = () => {
+  return (
+    <div class="hero hero-night-stalker" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAACAcGCQP/xAAwEAABAwMCBAQDCQAAAAAAAAACAQMEBQYRACEHEhMUIiMxQQhhgSQyQlFSU3GR0f/EABsBAAIDAQEBAAAAAAAAAAAAAAUGAwQHAgEI/8QAJREAAgICAQQCAwEBAAAAAAAAAQIAAwQRBRITITEGQSJRYSOh/9oADAMBAAIRAxEAPwDjBc1qECtTGg5wcXkPHsujvKYfbslPGu6hMslvuc6eUuEXK6GdmWOqILhREtxsJtRqBCiN5iul+lC2zp3+NUUtWzt79QByltgYKInra4fcJq3RJjCWnHqtXAXCk1mQo5Md18ORLRvjPhtGQllmRvfnUq5nKWVMi1t7kcv/AIBU2FYtwVy3RJIkQ+u3CL1aJC3wv5f7pd574ocGvuIdqf8Akt4PL92zof3A6rCp+HSRqMO49KFa8OpdxS6gIIxOHLb37TvsutS5HiTZUDqLKZPbaeNc4T1Gm0yoq1TZL0llgiaVtoj5/mOEXSvdhdKGFUvDSN2dbdUgUaruVqG9T2Xsr9oRQXO/suuuGbtqQ48NIM4htdJ8iViyrkmvQn1gG5S+0BWHjJdnR9NtaDxuRbcC6npVRrX7/sXsitVIB9mbeo3pV37EuW0nWnDfniPZSk9FFeVV3+mgXyLOvYdn61LfH4yNZ1wXT7XejkQK2qcq41nr45EaQ03djXVX5k8aLDndSoqXTitFv1c+g6duL5W2wGouNj9/cDZmMo/LUddEPiTZVKiwrnqUMJr7fM5HUBdNtkk+6WdFeJwGcM1qbG4FychN6UyF8RO5uuVLgRHPKbbUzPCCmfkibag5vtuRXX4Enwtj8jDkzUO3Ycpk2ovwXWyVsG28pzKnpnGlejkiFem1iAPWvuH7MRWVLE0WPv8AkUlquxgtKluyZTctenhHl/j01cXJN6BmMhWhamKrJXcZQiekKnTTmLKLoddrctrJf8OIi5xcoamKGoKRCpb4VPdNUOE85ib/AHOeT8UNOlNW86LV3nfNeVwsunuX9rr6OrUCr19TLlJ6pATAO5XwDvzZ20gclWu/UZMUncNt+x2BrMJRZaFSleJUFN99Z/yqgWiHsUnpMVFDhQw+HuryRixhkNzvLfQB5x29ixnVas+J7Wf9oPas66qllxxfquoXMKif/9k="
+                data-src="./assets/media/heroes/large/night_stalker.jpg"
+                alt="Night Stalker"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Night&nbsp;Stalker</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Avoid taking traditional ganking routes if possible. You're crazy
+            fast at night so you can afford to sacrifice some travel time in
+            order to avoid walking into typically warded areas.
+          </li>
+          <li>
+            Use TPs liberally during night time. Show yourself in one lane, then
+            TP to another once the wave dies. This makes your ganks far more
+            unpredictable.
+          </li>
+          <li>
+            Buy your own wards if you need to. It takes no time at all for you
+            to run into the enemy jungle to ward it up and you'll make back the
+            gold in just one kill.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Night Stalker sees as much at daytime as most heroes see at night.
+            If you see him when the sun's out, remember that he only has 800 day
+            vision and may not even know you're there.
+          </li>
+          <li>Void doesn't ministun during daytime.</li>
+          <li>
+            NS is essentially an M1 Abrams with wings. Dude has extremely high
+            armor with no items. This is what makes him such a terrifying tower
+            diver.
+          </li>
+          <li>
+            Like against Bounty Hunter, if NS blows his stun early, try to TP
+            out.
+          </li>
+          <li>
+            Some heroes also don't mind night time that much. Luna gets bonus
+            night vision with Lunar Blessing, Lycan gets bonus night vision in
+            Shapeshift, Slark has 1800 night vision, Sniper has 1400 night
+            vision, and Slardar, Spirit Breaker, and Winter Wyvern have night
+            vision talents.
+          </li>
+          <li>The Harpy neutrals have 1800 day and night vision.</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default NightStalker;

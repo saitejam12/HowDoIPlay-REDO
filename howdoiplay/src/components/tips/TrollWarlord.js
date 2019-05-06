@@ -1,0 +1,126 @@
+import React from "react";
+
+const TrollWarlord = () => {
+  return (
+    <div class="hero hero-troll-warlord" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABgcEBQgJA//EAC8QAAAFAwMCBAQHAAAAAAAAAAECAwQFAAYRBxIhFDEIEyJBFSMykRdCQ1FScbH/xAAaAQADAAMBAAAAAAAAAAAAAAAEBQYBAgMA/8QAKBEAAQQBBAIBAwUAAAAAAAAAAwABAgQRBRIhMSJBEwYUMlFhcZHh/9oADAMBAAIRAxEAPwCR4YZq0rXuSbjRl2i5ploZFGKOG04JlLyBgyNR+pWJu3j0relocwNuJ2r2e8WekNmyjyFZWuqmpHuTkF2iQRIA5wI5oCOnlL545Tkl0kItCRH2q4R8S2n8pbL+5JNslKxLE4LCxN3ES5EOKFEGYzNHHkhrQ5SHln8UpLubJ6oumV62bBughLgKB0GqYbtgl4wP7cVpqMJgsZxwnOiGianslJmkyzBqjFSUR5yU0yVaht2IpCFMQnIVuWQ/2gBO+HzntZFXhXaz46iKR+nAcip7VRVckiovU2iAnC6to2zb8nqQK1p9OqpFMVEndw/TvMbuIfap40/iBjP+qqp2JzfaVu+v2SMlLKCJm5+BdLsppQ5DrdSYoZyYc7ayC1KTNt4VSMVUoMkbmKV7+Bt+ShiwcU6fRc26WBFxGc7MiO3dz7UVB5Rnul/aW6qOrKszjfyzjC334XYk9mS9xW/8cB6xYx5CpNREDFIqfuJc9u1DXTfJtx7U9SBthKTpUz+q6czrMlZsvBx0tHN3goeYoTccxTCOQHijitIYf4XGrWgSW/nle/iX0Hik46PPpki3ZOJT5jqGHgwZ/iNMaF37geyLeSl9SoSpH+Ur5h6SCl9bYq14R+aEct0HvpO2Ag+owe5RoQunsaLPhNq+pTrzlGT5wgL8Zren5GJmBkeifPMJOzG/IYcfVS0enFFlvStNP1urP8vfpX98yMRHg1km1zRjx6YxFMNQ9RvcAraMCTfDsjb8q0BZHjLoo0S1HXgJ64ZWVenL1KPneoe+0PSFc7MPx2+kqGPweP6p92I2tJefcahyCTMknJqeeddUwAVMgDxtzXOxZmTxXq1OIIpiXxqxZs5NQTRKRZFaMQy6dJjuN/WQp99PQYLvMnCkfq4BjwiMLZXBldRQxh3KHNz7jTV0l9qJ+oNaogaPbVMZSQagoYxwAeAMOaCs9KjpO7vynHKnMm1ASGMQROACJRxxmlwe07P+CNQeOx6BEXTkUvIJ8rebb9s1iMW5Wc8snPbTJmZpuM0bGNj6hIXP+UqsElntNBwbHS//2Q=="
+                data-src="./assets/media/heroes/large/troll_warlord.jpg"
+                alt="Troll Warlord"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Troll Warlord</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Every attribute is harder, better, faster, and stronger in melee
+            form. Typically the only reasons you should be in ranged form after
+            the laning phase is to cast the Whirling Axes slow, get hits on an
+            enemy if you're blocked out by something like Fissure or Cogs, or to
+            get one very last hit on an enemy before they escape.
+          </li>
+          <li>You can toggle Berserker's Rage forms while channeling a TP.</li>
+          <li>
+            If you're toggled into melee Berserker's Rage when your ranged
+            attack projectile connects, it will land as a 'melee' attack.
+            Toggled attacks can't root, but they can cleave and benefit from
+            Quelling Blade melee damage. They will also not miss uphill, which
+            can be relevant in the mid lane.
+          </li>
+          <li>
+            Troll is the dumbest hero in the game with just +1 INT growth per
+            level. Whirling Axes (Melee) is a great wave clearing spell, but
+            Troll runs out of magic juice fast, especially if you get a Shadow
+            Blade or other mana-intense items, so be careful about spamming your
+            spells when farming.
+          </li>
+          <li>
+            Neither the blind, nor the damage, from Whirling Axes (Melee) work
+            on Rosh.
+          </li>
+          <li>Casting Battle Trance applies a basic dispel on your hero.</li>
+          <li>
+            Mechanically, activating Battle Trance is like having a Shallow
+            Grave cast on Troll. So whatever interactions work against Shallow
+            Grave (like dying through Culling Blade) are true with Battle Trance
+            as well.
+          </li>
+          <li>
+            When locked on to a target, you can't can't choose your movement or
+            cast items, but you can toggle Berserker's Rage forms and cast both
+            Whirling Axes.
+          </li>
+          <li>
+            You can force yourself to stay permanently locked on a target by
+            casting Battle Trance while you're in the middle of your attack
+            animation. For example, if you want to stay attacking a tower and
+            don't want an enemy walking by to pull your Battle Trance aggro,
+            cast Battle Trance while you're mid-attack animation on the tower.
+            You'll stick to the tower until it dies. This also works on Roshan
+            or ward-type units.
+          </li>
+          <li>
+            You'll chase a target until it dies once you're locked on in Battle
+            Trance. However, if your target is outside your ranged form attack
+            range, you can reacquire the nearest available target by toggling
+            into melee form.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Troll's no Ursa, but he can still solo Rosh fairly early in the
+            game.
+          </li>
+          <li>
+            The blind on Whirling Axes (Melee) is obnoxious and usually worth
+            getting a King Bar for. It also means that you need to be very
+            careful when ganking him if you don't have a lot of magic burst.
+          </li>
+          <li>
+            Troll's entire kit revolves around making chop suey out of a single
+            target. If he has to switch focus before killing a target, you're
+            doing a good job dealing with him. Force Staffs, Ghost Scepter,
+            Eulses, and Banishes are all ideal counters.
+          </li>
+          <li>
+            Troll gets shared vision on a locked target during Battle Trance if
+            they're within the acquisition range, so you can't fog him to lose
+            aggro.
+          </li>
+          <li>
+            Troll ignores taunts when in Battle Trance, however fears can
+            prevent him from attacking.
+          </li>
+          <li>
+            Axe can Culling Blade instagib Troll even when he's in Battle
+            Trance.
+          </li>
+        </ul>
+        <div class="video-wrapper">
+          <iframe
+            title="Dealing with Troll Warlord"
+            width="672"
+            height="420"
+            src="//www.youtube.com/embed/44hn-jHDp_c"
+            frameborder="0"
+            allowfullscreen="0"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TrollWarlord;

@@ -1,0 +1,149 @@
+import React from "react";
+
+const WinterWyvern = () => {
+  return (
+    <div class="hero hero-winter-wyvern" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABgcEBQgCCf/EACwQAAEEAAUDAgUFAAAAAAAAAAIBAwQFAAYREiEHEzEUQSIjM1FxCCSBobH/xAAbAQACAwEBAQAAAAAAAAAAAAADBAUGBwIBAP/EACwRAAEDAwIEBAcBAAAAAAAAAAEAAgMEBRESIRMiMUEGFHGBFiMyM0JRofH/2gAMAwEAAhEDEQA/AEPQdXK7LmaraqydBZqaNGSdqybThOOcWa35jbw3HKye02qpMA80/XJ3KDq/NsPNOZZiHLGLNcJXHGz+HuLryqY8lOo4UzcYJaeAaRsm3lS5GqKfeRZUJhagdX2VJBN0U86YaovkO1FV2SVzsRuHX+LTHS7r7krqJUXWSptuFZKuIb0aCUgtBR4xUU5/OJKsniqo+X6gl5LG9j2ulbsDleRHUvpZf5IzjbUb0V2Y+5MdJk2E3o4jhqoqKp99cVFzCCtHoK1tQzKVthUy69w2ZsV+I+39Rl0VEk/hccKQWtp2X0oZ8aYDWoF+3JFxLjkdlUa2VhkOlQLGsr5bgvbSiTA+lIb4JMEc5ruqsLJHNH7Cp2qed6oW7OxdcqC1KQ9r8X49vOAucR6JSeTAJY3m7IwpskV0t5tmodOLL2rKE1XarQivCqXC6rj5seeig5r7PB91ue3qmLVZCzi7YxZ02UdicZW3lffXcrYappqqphnhuJCJ8XUwbpxgqw/UT0kSQFXnEWo3csmQYmi1pp3NOC0T74DX0uHah3T/AIev8de0gdQmDmHpy4xkqZmOSHedjH3YUc+FcXVcSDqU8PPdZ7aLxmvZGPdJODlhb9Alqa1qNgjkgHk4RfdE8Y4FLr3Oy02ethjOMrpzLEG0Zchxbdn5RaOe2PPLsf0K4bNGOYozr8o2dVFMxeZFjYKIRrtUtPzg/kyAkKhkMxym/wBPbl+Q3aU8tpiYxaoDT0gV+JsQJFRdfbxgsEG+OyrFys8ILZBsQhzqdIh+uYy3WzCmV8QQN4t25O4OvH94FLFk4U5Y6YU7S8jco1zxIfJ92OTzpMNuEgMKS7ET53hPGGz1Wd2ZoGD3/wAQDJAEjQQQRQFZJVDTjAahWCqcdbkuYbLSOtKjTaKVmyhcJym9OMR4G3umJXu09fxRV1scNjNXp2DNlhI7WjILtDx9k4w5Md0/4eOqkBKCcrSJDXre0+81q3ztJU/zBqdSdQMgKdGVSc3EqkSlyS+cNALpf//Z"
+                data-src="./assets/media/heroes/large/winter_wyvern.jpg"
+                alt="Winter Wyvern"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Winter Wyvern</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Arctic Burn's DoT can only be applied once per enemy per cast and
+            multiple attacks on the same target <i>do not</i> refresh the
+            debuff. Spread your damage out between enemies when in Arctic Burn
+            and pay attention to the buff timer in your status bar to maximize
+            your damage. Post-Agh's, multiple attacks <i>do</i> refresh the
+            debuff.
+          </li>
+          <li>
+            Arctic Burn's DoT effectively deals ~35% of a target's current HP as
+            magic damage. Your ideal targets are heroes who have the highest
+            <i>current</i> HP, not max HP.
+          </li>
+          <li>
+            As a result, the DoT can never kill an enemy. Some asymptotic damage
+            up in this bitch.
+          </li>
+          <li>
+            When in Arctic Burn, Winter Wyvern can't uphill miss on units or
+            structures. Because she's flying. A rare instance of Dota following
+            real life logic.
+          </li>
+          <li>
+            Respect the buffed night vision when in Arctic Burn. You don't get
+            flying vision, but you can use the 400 bonus sight to scout very
+            well if you travel onto a cliff.
+          </li>
+          <li>
+            The primary target of Splinter Blast <i>doesn't take damage</i>. I
+            know you're really angry that QoP just Blinked away with 20 HP, but
+            Splinter Blasting her does absolutely nothing. You're better off
+            holding on to the cooldown in case the enemy walks into a creepwave
+            or near some neutrals.
+          </li>
+          <li>
+            Having said that, Splinter Blast is actually a dope Linken's popper
+            because the range is ludicrous.
+          </li>
+          <li>
+            Splinter Blast's secondary projectiles can hit invis and fogged
+            units.
+          </li>
+          <li>
+            Cold Embrace the creep that's tanking tower shots when pushing,
+            ideally when they're almost dead.
+          </li>
+          <li>
+            Cold Embrace protects units from <i>all</i> physical damage,
+            including damage from spells like Exorcism or Quill Spray.
+          </li>
+          <li>
+            Spell immune enemies can be Winter's Cursed, but they can't be
+            taunted into attacking an ally who's Cursed.
+          </li>
+          <li>
+            Winter's Curse taunts in the AoE for the full duration of the spell
+            and is sticky on the Cursed unit. You can Force Staff a Cursed enemy
+            to catch fresh enemies or to drag taunted enemies deeper into your
+            territory.
+          </li>
+          <li>
+            Winter's Curse can be cast on <i>all</i> enemy units, including
+            creeps or summons. The situations in which this could be important
+            are far and few between, but you can use this to catch enemies who
+            play it loose and fast with Blink Daggers (Puck, OD, Tinker) by
+            Cursing a creep that's close to where the enemy will be.
+          </li>
+          <li>
+            Cursed enemies are invulnerable to damage, but you can still
+            <i>do</i> things to them. Like stun/silence them, or apply DoTs
+            (like Arctic Burn), or place other debuffs, or build passive stacks
+            (Fury Swipes, Jingu Mastery, etc), or burn their mana.
+          </li>
+          <li>
+            Most passives are coded to <b>not</b> work on allies, so don't rely
+            on an enemy critting or mana burning an ally under Curse to get a
+            kill. This means spell passives and item passives. There are a few
+            exceptions, like Void's Time Lock or Basher/Abyssal Bashes.
+          </li>
+          <li>
+            Winter's Curse can be cast on Roshan. It won't taunt any enemies,
+            but it'll make Rosh invulnerable.
+          </li>
+          <li>
+            You and your team can damage an enemy under Winter's Curse (for a
+            percentage of damage) if they are affected by Bloodseeker's
+            Bloodrage.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Cold Embrace allows for a lot of easy setups for delayed/skillshot
+            spells. Dumb Wyverns will often Embrace allies when they're in clear
+            vision, so try to take advantage of the situation.
+          </li>
+          <li>
+            You can also continue building 'stacks' on an Embraced enemy with
+            spells like Slark's Essence Shift, OD's INT orb, Bristle's Quill
+            Spray, etc.
+          </li>
+          <li>
+            Don't walk into a Cursed ally. Think of the big snowflakey area like
+            a Chronosphere because you <i>will</i> get sucked into fighting your
+            teammate.
+          </li>
+          <li>
+            Walk into a Cursed ally. Wyverns like to separate fights so that
+            their team can jump on someone who's un-Cursed while the rest of
+            their team fight amongst themselves. If you think you'd like some
+            invulnerability, just step on in. It's possible that you may buy
+            yourself enough time for your Blink Dagger to unbreak.
+          </li>
+          <li>
+            If Curse was used on you solo just for the stun, you may be able to
+            Blink out immediately after it ends since you can't take any damage.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default WinterWyvern;

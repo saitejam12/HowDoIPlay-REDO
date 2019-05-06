@@ -1,0 +1,133 @@
+import React from "react";
+
+const Windranger = () => {
+  return (
+    <div class="hero hero-windranger" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAACAcCAwYJ/8QALRAAAQMCBQIEBgMAAAAAAAAAAQIDBAUGAAcREhMhMRUiMkEUQlFhcYEIFlL/xAAaAQACAwEBAAAAAAAAAAAAAAAEBgMFBwAC/8QAKBEAAQQBAwMEAgMAAAAAAAAAAQACAwQRBRIxEzJBBhQhIiRCUXHR/9oADAMBAAIRAxEAPwAVZK5BqzPk12M1NTTpFMimRGK/SspGu3thC1vXGac1rn8E4RFaAz5wulo9jN2vV0oqiENyoDp2tOeXUoPfrgeWwJW5HBTF6d033Eu536quWrDol/XYmFcFTUzS45CV7VhKVE9NOpwMG9NnwFoVifY7DSrxWsgoOT1Sp95WZLC7er40lEqCkciu6SR9cB2pnWYcOHCh06yxz3sPJQRz+y/h064JFUpaNINYBf4x8jp9QwVpF923Y7ws/wBdoe2sHHBRDm01xpxXTDbFMCFREL3TuWn2tQJdSvrK9hiJKjI0rNMbI43EH3SBr/rGCafqc1yJtK/nP6u/1MRodOTfEgLmpekK9K0h+Qo0+Q2dolo8o69wdMarplM1Ytg+U1NqMrxjHd5V9yky+sS8okZiTMfiVOIjVD7S9A6Pv9cc+V7V1iNjvnyrVVLcrVw5S3LbNMuh+DHs9bskNyddyg3qU+Y4giwJRkcoeQFv2byhhvl3hYUCdUwtdRjrcZfWeywgqAWPzgG85tezhnCqPUM+8MDuUba7bu11w7ex9OL6payEpuSave7rjsSx5C48x0GqDg2rWd6f0ThXrUYLt0OxwiYNScIOme4cKL2lIolzwZEKup3qqSSI80fI598NEjnxP+vhOGg6qy4zoTdy7LLe46jZ9wGhSVyXorKuIS2upCD2P6xK8NeNylnDon9MpFZh5lxKNbzdk25X/FZ94BKaxLQkD4Zg+yyNOuBo4s/cjGEZAeo4MWMWhs06yojCONbLCNEKT79O5ws2m9Swk31O9jLpa0otXS0lMx/aOhOL+rEWhUW/K2fyddd/stLY5HOHhJ4dTt16+3bAHo8fjkorU2gTfCllo+WESny6Hppi5u96GquIlGEg8tUIXU6itaUrXxetQ1OIJuxaZEckE/wpjLUoeJuAkOeIqHIO+n5wRJwP6QlxxbUyOcq1ZbzJb1JqTTsqQ60lHlbWtRSP0TitnaN4WbXHF0hJUuuon4qR+Ti5g8Ly1f/Z"
+                data-src="./assets/media/heroes/large/windrunner.jpg"
+                alt="Windranger"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Windranger</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Hold on to the Shackle until you are sure you'll get a latch. If you
+            can't find a good angle or secondary target to land a Shackle, just
+            sit on it.
+          </li>
+          <li>
+            For years man has wondered, "How <i>does</i> Shackleshot work?" A
+            brave soul on /r/dota2 tackled one of the greatest mysteries of Dota
+            and came
+            <a href="https://www.reddit.com/r/DotA2/comments/3lgx2u/shackleshot_always_prioritises_units_over_trees/cv6be6h">
+              back with the following findings.
+            </a>
+            tl;dr Shackleshot searches from 0° outwards and from furthest
+            secondary target to closest secondary target.
+          </li>
+          <li>
+            What sets good Windrangers apart from bad Windrangers is how
+            frequently Shackles are cast on creeps. Bad Windrangers will almost
+            always target it on a hero even if there's a far larger window to
+            miss the latch. Shackleshot prioritizes units over trees, so casting
+            it on creeps is often times safer than casting it on a hero and
+            banking on a tree or another unit to show up.
+          </li>
+          <li>
+            Shackleshot can latch to invisible units. If you know where an
+            invisible target is (like TA in Meld), then you can try to position
+            a creep in such a way that you can land the enemy hero as the
+            secondary target.
+          </li>
+          <li>
+            Use Powershot vision to scout Rosh attempts or check high ground
+            fog.
+          </li>
+          <li>
+            Be aware that Powershot's massive range can also be a liability at
+            times. If you're farming in dangerous areas, be careful with your
+            Powershot angles, otherwise enemies may discover you're farming
+            their jungle.
+          </li>
+          <li>
+            If you are within ~1800 range of a neutral camp, you can draw aggro
+            and stack it with Powershot.
+          </li>
+          <li>
+            Windrun has a slowing component to the spell. If you're chasing
+            someone down with your team, try to spend your entire Windrun within
+            ~300 radius of the enemy (the radius of the slow).
+          </li>
+          <li>Windrun can disjoint all incoming attack projectiles.</li>
+          <li>
+            Focus Fire cannot be dispelled. Not the positive buff off you nor
+            the debuff off your selected target. Not even through an Aegis death
+            will the Focus Fire debuff be removed off a target.
+          </li>
+          <li>
+            The only ways to stop attacking a Focus Fired target are to right
+            click a different target, hit the stop or patrol keys, or just move
+            out of attack range.
+          </li>
+          <li>
+            When moving in Focus Fire, you will face the direction you're
+            clicking in, but once you stop clicking, Windranger will turn around
+            to face the enemy she's attacking. This is relevant when Focus
+            Firing a Medusa Stone Gazing, so you can attack her and not get
+            Stoned.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Be very aware of her angle to you and any allied creeps between you
+            and her in lane. Windrangers are always fishing for Shackles, so
+            keep mirroring her movements to make it difficult.
+          </li>
+          <li>
+            Constantly keep her in your camera when laning against her.
+            Powershot is not an easy spell for her to land, but it is if you're
+            asleep at the wheel. Watch where she's aiming and move away.
+          </li>
+          <li>
+            Windrun gives 100% evasion against physical <i>attacks</i>, but
+            physical
+            <i>damage</i> can still hurt her. This includes spells like Diabolic
+            Edict or Exorcism.
+          </li>
+          <li>
+            Get an MKB or Bloodthorn to deal with Windrun evasion if Windranger
+            is turning into a strong damage dealer.
+          </li>
+          <li>Or get a Nullifier. Windrun can be purged/dispelled.</li>
+          <li>
+            Windranger will Focus Fire under any circumstances when she can
+            normally right click her target. If she's stunned, slept, feared,
+            ethereal, hexed, taunted, disarmed, or out of range, she won't
+            attack.
+          </li>
+          <li>
+            Focus Fire involves a bunch of small damage attacks in a quick
+            period of time. This makes damage block items like Vanguard or
+            Crimson Guard very effective at mitigating her damage.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Windranger;

@@ -1,0 +1,92 @@
+import React from "react";
+
+const SandKing = () => {
+  return (
+    <div class="hero hero-sand-king" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABwkFBggCBP/EADEQAAAFAwMBBQYHAAAAAAAAAAECAwQFAAYRBxIhIhMUMTJBFRZCYZGhNFFTgbHB4f/EABsBAAMBAAMBAAAAAAAAAAAAAAMEBQYAAQIH/8QAJxEAAQMCBgICAwEAAAAAAAAAAQACAwQhBRESEzFBIzIicQYUM4H/2gAMAwEAAhEDEQA/AFnWtZp4pcPe6L7SFfDtJJJdWwR9RxWXkmtkz2V9kd8z6otxKd52JdUZGw8Me5rRWAHCDtD4UvEcj8qRftVMZJOl6YO5A7IDNqZRCSNv3RZjC4Y7JXUYUDGTN5gx4lGsPLBJHKWFUXzN29fS41AgYrUe1XNsrbMTsebuwm8O1IX/ACtT+H5tc+JylYnVMkDXNKQvqPpTN2c/lDA3OpHsHBkFXBeSlOUcYGt1FN0VKli1XQ4gLanbmegwhGCz51+mTAfzTJcEnpKY/Z6RbbQXhZs539uKkNsWV6jIDj51has73ybZy1lN4vifVea0tfhsl3KwMrELOYc5jpw8yBOjA8AAjXqbCP2A14N+whsr9olpFlqCwtZtMwhEUGDtRsZwiqWZZn4MVQfAQClKigkD9R/xQsWr8odA7UXcOp7uPtiLmm7vKSaqqTQCByCY5ABH60ek8dR8eQk6XD5oomvNwVkO6LnjZ2xb7TWeJupCSc9qCI+ICIgOa0ULnDMnkqs/LMBY6gbrk7Kmu+Q7sURMPUJBx96fdBusulDLofZX2f1HvOReCiquRs1TNhRBP4vkNJxUcLftMPnlP0jbbNxxt2W4e2ppFNmxWJ+Nxk4KgHSOfSps0DoZNxvKcimErNDkZtDB00uRJa2rqRRbzMIv2XtZHgyhM9BzfnUbHHVUHlh4PSJTRMksekZtXoWwbWtARj5wJOVU4ZNijkvIcABaiYPiNTNOdxulvaoVDQI7JW0t7ZYPJQhmayZnQm348o5r6LT1UT2ghyzssbgSCFK6R6DXDqVKmM4IpGwSA5dPz8fsWuYhjMdM213Lukw10xvYKkqckyPIibkaI33RD/JESxxEV9giOwQ5J6V4qOEKLlSMEqo21Gcd3UOhvT6uzHbn6UvUjOnumKe0yIE24XUn40qi6yhc+UxhEPvUiVoFO5POPkCjbgABV5AB6/7qXQosyMcs6dRtiRxI5yuwIdMBOVucUgHj124p6FodLdE4aF//2Q=="
+                data-src="./assets/media/heroes/large/sand_king.jpg"
+                alt="Sand King"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Sand&nbsp;King</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            The only reason you shouldn't hero target Burrowstrike is if you're
+            going for multi-hero stuns or if you're trying to achieve a very
+            specific position. Unlike Earth Spike, the bonus range granted by
+            skillshotting Burrowstrike is barely anything (~100 units extra).
+          </li>
+          <li>
+            The combination of him having no cast times, Burrowstrike being a
+            stunning Force Staff that doesn't break trees, instant fade time on
+            Sand Storm invis, and the fact that Blink Dagger is a core item
+            makes Sand King's jukeability extremely potent. Use all of this to
+            your advantage and be unpredictable. Cast Sand Storm, but then
+            immediately change directions while you're invisible. Use Sand Storm
+            to disjoint attacks until your Blink Dagger comes off cooldown.
+            Burrowstrike into the trees and start TPing. The only limit is
+            yourself. And your mana.
+          </li>
+          <li>
+            Casting Burrowstrike on a Lotus Orbed target will have you swap
+            positions with the enemy while stunning them on the way. If you
+            skillshot the Burrowstrike in a way that you only hit the enemy with
+            the edge of the stun AoE, the reflected enemy Burrowstrike may not
+            even stun you back.
+          </li>
+          <li>
+            Linken's Sphere will always block Burrowstrike regardless of how you
+            targeted it.
+          </li>
+          <li>
+            Attacking or casting an item/spell while in the Sand Storm AoE will
+            temporarily reveal you for a brief period of time, but you'll go
+            back invis after.
+          </li>
+          <li>
+            If you're planning on channeling an Epicenter post-Burrowstrike, aim
+            the Burrowstrike so you end up behind the enemy. Not even an instant
+            hex will be able to cancel it because you'll finish the channel in
+            the time they spend turning around to cast the hex on you.
+          </li>
+          <li>
+            If you are going to shift-queue your Blink Dagger after the
+            Epicenter channel, choose your destination at the very last second.
+            Things can change in a two second channel time. Positions can move,
+            TPs come in, Blinks go out, empires fall.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            A value Dust or sentry ward can go a long way against a Sand King
+            who's always sitting around in their Sand Storm.
+          </li>
+          <li>Sand King cannot Burrowstrike when rooted.</li>
+          <li>Caustic Finale won't trigger if a unit is denied.</li>
+          <li>
+            You may not be able to stun/silence him out of his Epicenter
+            channel, but you can still disable his Blink Dagger with damage.
+            Making him waste 2-4 Epi pulses for a 0.1s Powershot or some other
+            long range spell is a great trade.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default SandKing;

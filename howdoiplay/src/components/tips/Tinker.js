@@ -1,0 +1,174 @@
+import React from "react";
+
+const Tinker = () => {
+  return (
+    <div class="hero hero-tinker" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAABQcIAgYJBP/EADAQAAAFAwIEBAQHAAAAAAAAAAECAwQFAAYREiEHEyIxCEFCYRQVgZEXMjNRcaHB/8QAGgEAAwEBAQEAAAAAAAAAAAAAAwQFBgIBB//EACYRAAEDAwQCAgMBAAAAAAAAAAEAAgMEESEFEhMxIkEGMhQzUWH/2gAMAwEAAhEDEQA/AIBsEi0q+aM00HBiLGwJylHH3p5kwHajvhJ6VtiKxLccwi4ni1WQkA5nAYwXA9/5oNJtbKY4+nZugVsbtnK4ZGLL03laJLqtSFMLrmRjI+pwi3HKqg77f1TL65p8fa50zR5MyH2tS/A3h/eEC6aNWBWT0CCmRzkOcmr6RN7Z96Wc6TdlbGDSYZIrtOVykvVhNWFekrAKiYJCJcCmUwesvpGud5CmGPabLC4GzydhPnDkqrVdsHWkb8pveiP823XQViRl6GhXTZdsCLYrVQp8EKAZwOcfvUiQ72lv9TYjDTdM65+OhroXXcKI8lrJNSNFwOUQKoJAxnNc6XAGeL35CHX3d5NHaLveOdqWrb9mmik3knLJOSkuNolkxRRDbYArQvjYZGPAvZLMe5sTmD2mZcfF61JSUY31aqK0PGGblTk2hy6SmEA7CUcDmr1XSMqo97MWSvx7noHHlNwVDniGi2k7xot+bt9maQJcrYii5SB06s5/0azc0IgeBe6f5vyHlwFsqd+JrK8bfk14WabmYs1+tqiG4GJ9KWkmJXroy3tMs7hUVdaxxUMHpDtUi6dst0lLijpLhylCLAi3fxbjUkchcHMUfepzWOjq946KZcWug2oXwzv+3rfnY2Pk2iGvWAi+cgBiD96+lfHNRp2ENkGT7UOpYR0uhty3paFy2aEa5gYZBodExVHTXSGREvSbSGQ7+1b+bT4JI3ZwUEVP+KKBgJN+VmvCDIuVLQOqZT4cNRzIdQhgMeQV8hq4+GUsPpVWZAcktcM8rdc6EnPAudvGgKLdu4zr223A1IPqPJeuHIiqP6qfuO9KBGKFyhS/GrhgMcrtRENLG5gADsBAAAdPejRIEyZNqSUiNvSBBkHokKBdJOafAbeW9bDT5X8ByVPeMqtPDU6chxFj0wcL8tcxQXJqHBwHuBg86kar+xP0v1SJ8SqCLTi/eSDVFJsgVz0opFAhQ+gbVnZfsEZn1K//2Q=="
+                data-src="./assets/media/heroes/large/tinker.jpg"
+                alt="Tinker"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Tinker</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>Laser deals pure damage.</li>
+          <li>
+            Laser's 100% Blind is a big deal. Early game, you can keep it in
+            your pocket for when a right click hero dives you. Once maxed, it's
+            lasts about as long as a Halberd disarm.
+          </li>
+          <li>
+            You want to cast March of the Machines diagonally to the creep wave
+            to ensure that the little Machines have the highest probability of
+            colliding with creeps.
+          </li>
+          <li>
+            Avoid drying yourself out every time you TP on the lane in the late
+            game. Keep mana in the bank to deal with a Rearm or TP getting
+            broken. At the very least, keep your Soul Ring off CD whenever
+            you're Traveling back to the fountain.
+          </li>
+          <li>
+            Remember to shift+queue your Blink Dagger while you're TPing to a
+            creep. That split second of targeting your Blink after you teleport
+            in could get you killed.
+          </li>
+          <li>
+            You probably want to have your auto-attack setting on 'Never' when
+            playing Tinker. This reduces your chances of revealing yourself in
+            trees with an errant right click.
+          </li>
+          <li>
+            You can also get in the habit of shift+queueing a stop command after
+            Blinking into trees.
+          </li>
+          <li>
+            Always keep a TP scroll loaded in your inventory. It doesn't share a
+            cooldown with BoTs, so it can be used in an emergency.
+          </li>
+          <li>
+            Using Soul Ring will always give you a +150 mana buffer, even if
+            your mana is filled. So don't use Soul Ring before you TP out of the
+            fountain otherwise the TP mana cost will be taken out of the buffer.
+          </li>
+          <li>
+            Take advantage of the few seconds of residual fountain aura when you
+            TP to a creep. If you're fast, you should be able to use a Bottle
+            charge and have it replenished immediately, and you should be able
+            to lose minimal HP from Soul Ring's Sacrifice.
+          </li>
+          <li>
+            Don't make life hard for your carry. You have the ability to be in
+            all three lanes whenever you want, but you also have the ability to
+            bail at a moment's notice. Much like Nature's Prophet, Tinker's job
+            is to farm the dangerous locations on the map that other heroes
+            can't. So stay out of the lane that your carry is trying to farm.
+          </li>
+          <li>
+            Use fake TPs to scare enemies off chasing your allies even when you
+            don't want to commit.
+          </li>
+          <li>
+            You can activate a Shiva's Guard while TPing. It takes ~2.5 seconds
+            for the Blast to fully extend, so cast it after the first second of
+            a BoT to arrive with an expanded Blast.
+          </li>
+          <li>
+            Shiva's Guard provides flying vision as it expands. If you're having
+            trouble catching slippery enemies, consider picking up a Shiva's for
+            the vision.
+          </li>
+          <li>
+            Dagon can instakill any enemy illusion. This is useful against
+            heroes like CK, Terrorblade, Naga Siren, or Spectre.
+          </li>
+          <li>
+            In late game situations, remember that Glyph provides
+            invulnerability on your creeps when used. If you need to BoT into a
+            fight or want to bait an enemy into attempting to kill a creep, you
+            could use Glyph offensively to save the creep.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            For some reason, lane creeps drop aggro off of an enemy creep if
+            there is a Boots of Traveled person TPing onto it. So it's up to you
+            to kill the creep to prevent Tinker's TP.
+          </li>
+          <li>
+            Dominating or banishing a unit will cancel any Boots of Travel
+            channels on that unit.
+          </li>
+          <li>
+            Laser's Blind can be purged off. Or just get either of the King Bars
+            to mitigate the Blind.
+          </li>
+          <li>
+            Lotus Orb can be invaluable against the pure single target damage
+            and control builds a lot of Tinkers go for.
+          </li>
+          <li>
+            Rearm is great for his spells, but late game Tinker is all about
+            items. Nullifier is great at shutting that down. Just remember that
+            Nullifier can be disjointed, so try to catch him after he Blinks.
+          </li>
+          <li>
+            Multiple Blade Mails can discourage Tinker from spamming March in
+            team fights. A single Blade Mail can also be value to break his
+            Blink Dagger by reflecting random March damage.
+          </li>
+          <li>
+            Boots of Travel's channel time does not increase based on nearby
+            teammate TPs like scrolls do, meaning that backup from Tinker can
+            come quickly.
+          </li>
+          <li>
+            Tinker is a filthy liar. Heat-Seeking Missiles miss. A lot. Ways to
+            make them miss include: Any kind of Blinking, any kind of
+            invisibling (including Smoke), any kind of banishing, any kind of
+            teleporting, and any kind of spell immunity. This spell gets more
+            disjointed than an old lady falling down the stairs, which begs the
+            question as to why Tinker hypes their reliability.
+          </li>
+          <li>
+            March of the Machines deals damage based on the little robots
+            colliding with an enemy unit. They get consumed when they hit a
+            unit, so if you stand downstream of the March behind creeps or
+            summons, you can avoid March damage.
+          </li>
+          <li>
+            Pugna's Nether Ward can make life exceptionally hard for Tinker.
+          </li>
+          <li>
+            Clockwerk is also a fairly good counter since he can get vision of
+            Tinker in the trees with Flare and initiate on him from a large
+            distance.
+          </li>
+          <li>
+            Zeus's Agh's Nimbus is basically an instantly stunning Rocket Flare,
+            so that's also pretty value against a Tinker.
+          </li>
+          <li>
+            You can place wards on the outer cliff perimeter of the map. This
+            gives vision above the trees that Tinkers typically Blink into.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Tinker;

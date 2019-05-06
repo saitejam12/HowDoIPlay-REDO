@@ -1,0 +1,99 @@
+import React from "react";
+
+const Enigma = () => {
+  return (
+    <div class="hero hero-enigma" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAABgkFBwAICgT/xAAyEAABBAEEAQEFBQkAAAAAAAABAgMEBQYABxESIRMIFDFRYQkiMnGCFSMkQUJScoGx/8QAGwEAAgIDAQAAAAAAAAAAAAAABQYDBAABBwL/xAAqEQABAwMDAwQBBQAAAAAAAAABAAIDBAUREiExBhNBFDJRcSIzNFKRof/aAAwDAQACEQMRAD8A3HRTQ3K94qdd965+4gDx/wA0bjA0Kz5Q3KxaWUoW2w8Qr4Eg60GEL3hSFdIY24hWOZX8aQItcyfQShJUtSyPHUaJUEOtyI0WIsyO4CTruyJu8+eZHOtW7CFWy3y5AU6gpUBz8CD9NMrbOy4SZ8DZK3Ul+0P0tRj7LuRtbdbiv08p9TVcUJjxnnR5eKuBxqCkom0MkkR4Rvpy7CSLU76TTbiZDkxI3pQUNqKeylD+rsOfloNLheXRHWVmf79bJbWuIYvskctJTifURHqkB/kf5I7aD+hmY0EjYqQ0j2e5ULa/aTbPQejVLiVpZIjg9Hpv3PI+hCNWWAD9Q4CyGSIuIzutNdxvbbyTc+4kTafmqrYauzdKkdmuB+o6O2+ujGzRx/qhulbmDSw43QFhWb5JuZPur6fKaaDHZtlDbYSCU8+CBpu6Qpn1ollzgeFy3ru9tppImEZO2VYuye4cXK8ygYbIxutkWTNj++tUtguNobPk+B9dLom7k0jOXA4C6PantkihEY9wynDPYSm0gtzqZ5ixhoSB2a/EngceRoNKx8TtMgwUflic124XM3t5lWdNLnyIdoZsiE0ViHN/iO6f7QVedVrRNNpIa78hwD5QX181K7UfZ5PwoO/smssalWr0IVNzDBM+IE9Eq+ZA/wBaqVlQJwS4YcOQrIcyYdwI0wzH/fsV/bcBhv0YnKJykfH8zpks9EJKDvgcbFI9yrTHV9ku2PCjqjMbPDBZVNa51VZrPRQHPHY8cjU1pvz7fDJGw8qpd7Cy4SskkHC3Q9hiXR4vuDY2140J1tJjksNfiUVOdiTrVspO9lxdhxOU8dKmMVeHbBg2TItyLDItsWKzdbFMtVXYhMV6dtTqSVBLx58FI0TklZNIYanwP7TvX1DDLh3C598GWpurbcbUpDi3+FuJPBP5nSBbiRI0hJb96V+VeAhQ36OyeeiRnXVMns6tCSo+D/MjXRexG6LJaCfpc6bPI2RwDiAqawuQ/Hcu40d91iOrt2YbUUoP6R40u2uRzHSNacD48IncGNc2NxGT8+V6ilJ8lKSUk9Tx8NCP5faKg8I92imS4+b465HlSGHDJUC42spV8fmNX6Vx1M+1cs37tP0w5KbTbwRrNKbGOXkqLEoesjt8+q+RrL4499qbLt7mr//Z"
+                data-src="./assets/media/heroes/large/enigma.jpg"
+                alt="Enigma"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Enigma</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Converting allied creeps into Eidolons counts as a deny and will
+            give you gold accordingly.
+          </li>
+          <li>
+            You can make Eidolons out of Eidolons, thus further Horcruxing it.
+            The cooldown for Conversion gives you about ~0.5s to quickly convert
+            an Eidolon before it disappears. This information is highly relevant
+            during Rosh attempts.
+          </li>
+          <li>
+            Jungle creeps have a tendency to use their spells whenever three
+            units are in close proximity to them. If you just converted
+            something, chances are your Eidolons will eat the damage, but if
+            you're moving to a new camp with old Eidolons, spread them out so
+            they don't trigger a spell.
+          </li>
+          <li>
+            You can avoid triggering a neutral spell by dragging the camp out
+            and converting when the creeps are walking back to their camp.
+          </li>
+          <li>
+            When jungling, be aware that you can drop neutral aggro off of your
+            Eidolons the same way you can drop tower aggro. Select the Eidolon
+            in question and then a+click another allied unit and the creeps
+            should lose interest in that Eidolon.
+          </li>
+          <li>
+            Attacks on buildings or allied units do not increase the attack
+            counter for Eidolon multiplication.
+          </li>
+          <li>
+            However, if Eidolons only need <i>one</i> more attack before they
+            multiply, a tower attack will work. I don't know why.
+          </li>
+          <li>
+            You can convert enemy siege creeps into Eidolons to help speed up
+            pushes.
+          </li>
+          <li>
+            Midnight Pulse breaks trees in a massive AoE. Use this to counter
+            Sprout, burn down a bunch of trees during a chase, stun a Tree
+            Dancing Monkey King, or to be super sneaky and carve a path to hide
+            so you can easily Blink in for huge Black Holes.
+          </li>
+          <li>
+            If you're against a team with high mobility or lots of disables,
+            don't bother with dropping the Midnight Pulse before Black Hole. The
+            cast animation is long and makes this risky.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            "Hey guys don’t clump, I think Black Hole is off coo... GOD DAMN
+            IT."
+          </li>
+          <li>
+            Beastmaster is a solid pick against Enigma since he can stand on the
+            other end of a Black Hole and still stun him out of BKB with Primal
+            Roar. Vengeful Spirit is also a good pick since Nether Swap also
+            penetrates spell immunity. Rubick can steal Black Hole guaranteed.
+            Silencer can Global Silence a Black Hole even through BKB. Necro can
+            also disable through spell immunity with Reaper's Scythe. KotL's
+            Will-O-Wisp doesn't go through spell immunity, but it's still a
+            super long range super huge AoE channel breaker.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Enigma;

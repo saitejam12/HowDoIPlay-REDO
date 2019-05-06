@@ -1,0 +1,92 @@
+import React from "react";
+
+const Meepo = () => {
+  return (
+    <div class="hero hero-meepo" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAABwgJBQYA/8QAMBAAAAUDAgQDBwUAAAAAAAAAAQIDBAUABhEHIRITIjEIFUEUIzNCUWFxFjJigcH/xAAaAQADAQEBAQAAAAAAAAAAAAAEBQYHAwAC/8QAKREAAQQBAwIGAgMAAAAAAAAAAQACAwQRBRIhBhMUIjEyQVEVIyRhcf/aAAwDAQACEQMRAD8AjpZsMlJPkGh3aLQyhgDmH9KZd6OPhyS+HmmOWKn+mmnsxIWgvGwk1BPX8UdNy0elOUDgYu/CYuRqN1LTf5AfH7Vq2g9QBtEwzjz4wso7OSl9R1n887bAeCSKaQc5DgA5Nu9X3TNcnLj6LM+oZQPKETo/Xa8bgdK2FpfIsEnrs/JVuJ0OEk/ToH60fqvUEFc7I+SgNM6Wmtjuye1DzXTw+6+IwaE1qJdrK7I0uTJN8ZMXIZ92ICNT8utl5G9OPwLGtd2/UKas5CKs1VkzEMXlnMXhHvsNHPbwkMMvKwbGk27ebB4sBeYc4CiA9vxSGzJjzYVRUjwNpRwk5K+LCn2V1NlJCNj5YnQsmcQSU2/aYA2rlQnZacWErvaY6thwXfW3LTuoqbaCaulGrq4nQ+YLgbqMXPbNPrcrqlEhiCoRMt3gX+iYpOwrug4BlZ8JAm9oI4KdWSQAQXNv3KYBGs97+7/VqTKpa4YI2fSYqSv5R/pyxsS5RlmMjBKhl7JB70A4P54yG1c3WpNuzGShb2nxMzMHYypyan2828wkXLUxVUTrGwoG2fvWj0cvqsJ+lh1s9q29v9pIo5BVI3EUqggUclUL6CFJy3Kq92E5drX+yvSx/wBD3MkCiyJMNXA99uxg+9J303QS72I5tkTN2uXDwMjI2Y8brMlDmdwD4FUzh86Wc1YbfG0T9hJ2S+EtBypfpZqrNalLkdQVwJRL5FuALM+HJ+IA7h2qHlp9k8hX0Wo+KZ5HIc6qt7iWuNkvNuHqiqjspFXDjo5vVv8AKG390THtedjByk9rusbl7sr142oWQgVXlqJNpRdoUPbIk/xM43MXvmi/zUVRwrWjs+nfBUi7R5pXGxCNw+R8hSigfiY9PpTAI5EyCACTrDgAC/javS+i+We5EGTKXzdTpDcN6O0c/tQuo+iLXh5WVbaqwhW6qiBVFygcqYiUBDPriidQY3Y7hc9NkcJRyqBeLpugSBj1iIIlVT4BIoBQAwbeg0i0to3lNdWkd3GDKS603z1O62nLeOiZRDPCoYP9qe66Y11TkJn08SJ+F//Z"
+                data-src="./assets/media/heroes/large/meepo.jpg"
+                alt="Meepo"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Meepo</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>Earthbind can root and reveal invisible targets.</li>
+          <li>
+            The Earthbind projectile provides flying vision in a small radius as
+            it travels.
+          </li>
+          <li>
+            The only reason your whole entourage should be in the fountain is if
+            you just respawned, otherwise there should always be at least one
+            Meepo out on the map. If they all need heals, just rotate them in
+            and keep one somewhere safe in the jungle.
+          </li>
+          <li>
+            Enabling quickcast for Meepo in your options will generally make
+            Poofing much, much, simpler.
+          </li>
+          <li>You can Poof to illusions owned by you.</li>
+          <li>
+            You can cast Eul's on any of your Meepos. You can cast E-Blade on
+            any of your Meepos.
+          </li>
+          <li>Only the primary Meepo benefits from Moon Shard attack speed.</li>
+          <li>
+            Power Treads benefit Meepo's clones twofold. They get the bonus
+            stats from your primary Meepo having Power Treads and they get their
+            own bonus stats from their own Power Treads. This is also true when
+            hanging around Luna's Lunar Blessing or other attribute boosting
+            skills.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Meepos find success when they can isolate a dying Meepo and free
+            them from the fight. A way to counter that is with heavy lock down
+            for a single Meepo so it can't Poof out or by using silences, roots,
+            or multiple instance stuns (Malefice, Cold Snap, Paralyzing Cask).
+          </li>
+          <li>
+            All you really need against Meepo is to have a ton of single target
+            damage to kill one Meepo. You don't get extra credit for dealing
+            damage to his every Meepo. You only need to kill one.
+          </li>
+          <li>
+            There is very little Meepo can do to deal with Winter Wyvern's
+            Winter's Curse. Late game, a Meepo can bait the Curse on a secondary
+            Meepo and then E-Blade the one that's Cursed, but that makes
+            initiation very tricky for the Meepo.
+          </li>
+          <li>
+            Earthbind has a massive cast animation and travel time, so it's
+            fairly easy to juke. Meepos have to predict your path almost a whole
+            second in advance, so just change your trajectory to avoid the net.
+          </li>
+          <li>
+            Individual Meepos each give bonus Track gold when they all die.
+          </li>
+          <li>
+            Pangolier gets more damage reduction for each Meepo hit by his
+            Shield Crash.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Meepo;

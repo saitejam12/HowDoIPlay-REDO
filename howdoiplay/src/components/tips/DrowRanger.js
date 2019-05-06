@@ -1,0 +1,93 @@
+import React from "react";
+
+const DrowRanger = () => {
+  return (
+    <div class="hero hero-drow-ranger" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABLAAD/4QNTaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzE0MiA3OS4xNjA5MjQsIDIwMTcvMDcvMTMtMDE6MDY6MzkgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjU5RERBNjBBNDBFMjExRTk5NTQxODI2OENFMDQ2NzBGIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjU5RERBNjA5NDBFMjExRTk5NTQxODI2OENFMDQ2NzBGIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE4IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NzE0MmNmYWMtNGFmYi01NDQ0LTk4NzgtZTdmOGU4NjU4Yjg5IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6NzE0MmNmYWMtNGFmYi01NDQ0LTk4NzgtZTdmOGU4NjU4Yjg5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/+4ADkFkb2JlAGTAAAAAAf/bAIQAAwICAgICAwICAwUDAwMFBQQDAwQFBgUFBQUFBggGBwcHBwYICAkKCgoJCAwMDAwMDA4ODg4OEBAQEBAQEBAQEAEDBAQGBgYMCAgMEg4MDhIUEBAQEBQREBAQEBARERAQEBAQEBEQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ/8AAEQgAGwAwAwERAAIRAQMRAf/EAIcAAAIDAQAAAAAAAAAAAAAAAAYIBQcJAwEAAgMBAQAAAAAAAAAAAAAABAUBAgMABhAAAQIEBAMFBAoDAAAAAAAAAQIDEQQFBgAhEhMxFAdBUSIjFWFxgTKRQlKCojNjJBcJZBYIEQACAgEEAwADAQAAAAAAAAAAAQIDETFBEgQhIjJhcSMF/9oADAMBAAIRAxEAPwBG+nVuy1SuCX51BUy2pJ0faMeGHfWo5y/CFltqihkKxUahVZmm2lb0nvsvqCXmk8YjwpHtw3dWHnYHhdz8A/K2n1WsS+Z2bVR3JZmSPnxSfMQru78S4qXjY2nCVbDyu2y11At56pKBbmmklaUKGaVgcML4ZrmbTSnEpNMstEpP0/TB5AJJ7ik4cWNOliqK/osnOWosxUSWJJKnG3mUlfeFJ44RTk5B0YKOf2RVnlyS82ATseMGECYYYdK31aewD2o+ywWd0wviSt7qHSLiqCS/LNLDpbiExPZEnsjg5+8fB3VxC1ZNBHup9vVfp2/W3pSSm6g8kliXSUOrCVDIKIwEq+U/B72PCay0LBNWPdFuSLt7OtkUypOOGYaEdCAoxEPdinYxnG6PMXLhc8aC4XtVWZGuVJ2lpChp8cPbxx1Mm62gS6K5oHrdqM1MFa2Xy2opygc/dgZHNBlS7Y5dKZl1kPsPxGgZHGNcuJFkckCulOylWmkzJCUKI2mh9RI4DDfrN4y9AG2WGsal1dNuocuWKXYdu096crNSfbllLAiAgmEcuwDG1lsao5Z6CjvcoqO40X/T142/0w6ON2BVYMT02wkSqoRUVgZ5cePbhJbPlLK3ItaepnpbkzQzUJhur7k8/NA/tZYArJPCKjkMbRcscYi+c0nlhNSrWotLcbrLVMfb21Repj3iQpJ4eYOEcVdc4alYW1z0DanaOTahsR1H5NUfhHLAyNGV3dMPWHIQjEx0/P8AGOWHVXyKp/Qy/wDXxyn8iO6/Qt/s9S5n1SH+Po8n6c8A/wCh87jPp67A3/ZVzP8AKLOv1GG0rTv7GzD9HTnp9+eAKdAi3UVrpLD/AGJGqENWe7H8UM8PurrsJeyNjVOY9BqG1o2+Wb/J2dj725444pdnluTVjGx//9k="
+                data-src="./assets/media/heroes/large/drow_ranger.jpg"
+                alt="Drow Ranger"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Drow Ranger</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Drow not only has stupid long attack range, but she also has an orb
+            effect. Abuse this in lane. If you're not able to get last hits
+            because her animation blows, at least make life annoying for whoever
+            is in your lane.
+          </li>
+          <li>
+            Remember that Power Treads can be built from a Band of Elvenskin
+            instead of a Belt of Strength (or Robe of the Magi). It's not much,
+            but this can give you some much needed early attack speed to help
+            your last hitting.
+          </li>
+          <li>
+            The knockback on Gust doesn't break item channels, so don't bother
+            using it to cancel a TP.
+          </li>
+          <li>
+            However, the knockback does move enemies, making it cancel Templar
+            Assassin's Meld and Shadow Amulet.
+          </li>
+          <li>
+            You have to activate Precision Aura if you want ranged summons like
+            Visage's Familiars or Enigma's Eidolons to benefit from the Aura.
+          </li>
+          <li>
+            Post-Agh's, all split arrows will have whatever on-hit effects the
+            main arrow has. All 3 arrows will independently roll for
+            crit/bash/lightning and all 3 arrows will have the
+            Skadi/Deso/lifesteal effect or potential Marksmanship damage.
+          </li>
+          <li>
+            You can use Marksmanship's particle effect and buff disappearing to
+            detect if invis heroes are hugging you.
+          </li>
+          <li>
+            Marksmanship procs have true strike. Not only will the Marksmanship
+            damage go through, but so does your right click damage. This
+            provides a built-in counter to evasion heroes.
+          </li>
+          <li>
+            Marksmanship proc damage deals physical damage, but ignores armor,
+            making Drow effective against high armor heroes.
+          </li>
+          <li>
+            When jungling, spread your attacks out between the creeps in the
+            camp. You have the possibility of instakilling any creep thanks to
+            Marksmanship, so to try to maximize your "damage" by giving each
+            creep a chance to die rather than potentially wasting your instakill
+            on the one creep with 10% HP that you've been peppering for the last
+            4 attacks.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Get in her face. There is nothing Drows hate more than someone in
+            melee range of her. If a hero is within 400 range of her, she loses
+            the bonuses from Marksmanship, so try closing the distance even if
+            you're a ranged hero.
+          </li>
+          <li>Illusions won't disable Marksmanship, only actual heroes.</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default DrowRanger;

@@ -1,0 +1,127 @@
+import React from "react";
+
+const Pudge = () => {
+  return (
+    <div class="hero hero-pudge" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwgGBf/EAC8QAAEEAQIEBQMDBQAAAAAAAAECAwQFBgAhERIxQQcIEyJRFEKBFTNhNlJicaH/xAAaAQEAAwEBAQAAAAAAAAAAAAADAgQFAAEG/8QAJhEAAgIBAwMEAwEAAAAAAAAAAAECAwQREiEFEzEUIjJBFTNCUf/aAAwDAQACEQMRAD8Ag2jxiM6yj28Seg18PdkNMYoXw68vN5nbUxyEuPUMpTyR5kv2JUsntzcOPTQLO7PvkPVhWZPEBmh+UQYkpi2yl6Lm1NXoBvEwuQKbT3PUdPzoPyErfdFHWdOsxfnyv8EHIPB7y23WKuWlfQLr41e0VJmx1gKWofavhyarvMuhPTXyX/RVzipRfDIdo8KpWpczIpuNzWMRiyS03ZMrJkNI6Bw8Fbj861ndLTbu9wE8GVa3fQW5phtVkM62i4hEdnWkVfqRZDY9slpXz/l11oY9zilvK7xJfyOdTCg4JVQ5V4lCsgmJ5olUvqyn+5Y+dZs6m3qJRUnyxfxquyrI3q2/Rkz8yviOhC8dr/YUpX9ygD2/1qlPIpk9jRtYm+PNZRkfG7HEvrVJzGdLrZrKi/AdO7gWP2yOXtx+dTrzoOGxROux5OT3om+XdFvw7zHHoTrTU5l12Q3BKveps7noB/Oo9jWSkHi0dqnRkvxM7s6yoixqeUmTXyiU2tY/v3331pdtS+R72Vw4sa8ItMajRBJgxmY0te5WOAIJ+DqrNyTJN7CJn8pyjN8nivypbr1tLcC3ldg2nc7a1tqhB6+DNyJaze00z3jbn+E3rox6x/T4QAYUtI3Vy7E6KjpNbjufkaN860ahfmBzyb6cqwvhLKh1O2lXTq/pFj1cmuWbrw3yuPKNrZ3CfUmzweLijspJ47f90ORRpokV1a9WEGc/SVFw9OpUKMR5RW/FT0Tx0tcNy0ZKctOUd/EM2qEJT63t23ST30NmOzx27gw8O/6wdV9wYd4K79Dpsr9SDx0ZnMwDEKjufXc3/OtWj4iXGBr1KLzKSpRTzDbUpeCpEoylWtP06UrUkej0B/jWbLyKjnzlKUbLmJV7T11wsQvbJDquBI3OrDAR/9k="
+                data-src="./assets/media/heroes/large/pudge.jpg"
+                alt="Pudge"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Pudge</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Part of being a good Pudge is more than landing Hooks, but also
+            knowing when your Hooks won't land. The cast time is long enough
+            that you should be able to at least occasionally stop-cancel failed
+            Hooks.
+          </li>
+          <li>
+            Arguably the most reliable way of predicting enemy movement for
+            Hooks during the laning phase is to watch for last hits. While
+            you're hiding, watch the HP of your creeps and wait for the enemy to
+            pick up the last hit. The knowledge of where they will be plus their
+            attack animation should be enough to land a Hook fairly easily. If
+            the only thing between you and the enemy is a creep, start casting
+            the Hook right before they complete the last hit so the Hook passes
+            through the creep as it's dying.
+          </li>
+          <li>
+            You can pull runes using Meat Hook and the mana cost on Hook will be
+            refunded. You can abuse this with Soul Ring to refund the
+            'temporary' mana provided by the Ring's active.
+          </li>
+          <li>
+            If you want to make a trick shot video, face northwest and cast Meat
+            Hook on your portrait. Pudge will do a 180 noscope reverse Hook
+            behind himself without turning.
+          </li>
+          <li>
+            Meat Hook will always bring the unit it caught to your location when
+            the Hook finishes returning. With expert timing, you can use this
+            mechanic to save allies who are being repositioned with spells like
+            Glimpse or X Marks the Spot by having them be mid-return-Hook when
+            the enemy spell goes off. This also works with TPing allies to bring
+            them back after they spend a split second in the fountain.
+          </li>
+          <li>Use Rot to help get last hits in lane.</li>
+          <li>Common knowledge: You can deny yourself with Rot.</li>
+          <li>
+            Walking up to a hero and Dismembering them without Hooking them is
+            like getting body shots as a Sniper in TF2. No one will respect you,
+            but who cares when you get the kill.
+          </li>
+          <li>
+            Target and cast Dismember while an enemy is getting Hooked to give
+            them as little as possible to react with a BKB or some gap creating
+            spell.
+          </li>
+          <li>
+            When Roshing, don't use Dismember unless you're absolutely safe.
+            It's a huge red flag for the enemy team that Pudge is off enjoying
+            some fresh meat (the sound is global every time you cast it) despite
+            the fact there is no hero on the map getting Benihana'd.
+          </li>
+          <li>
+            Don't <i>ever</i> shift-queue Meat Hook after Dismember. You are
+            almost always better off canceling the last few milliseconds of
+            Dismember by casting Meat Hook rather than waiting for the channel
+            to end.
+          </li>
+          <li>
+            Dismember lasts longer on creeps than heroes meaning you heal much
+            more when you cast it on a creep. Useful if you need HP and don't
+            care about the Dismember cooldown/mana cost.
+          </li>
+          <li>
+            This makes siege creeps great Dismember targets if you're trying to
+            heal since most other creeps will die before Dismember's full
+            channel duration completes.
+          </li>
+          <li>
+            Never let Rubick steal Meat Hook. Constantly be spamming Rot against
+            a Rubick.
+          </li>
+          <li>
+            The Undisputed Heavyweight Illusion Rune Champion. Most heroes don't
+            like getting illusion runes, but on Pudge, they're great. Don't have
+            perfect micro skills? Of course you don't, you're playing Pudge. Get
+            this, just plop a lone illusion the enemy's end of the river staring
+            at the creep wave. You just got so far deep into their mid's head
+            you could write his biography. While he's sweating bullets on the
+            opposite end of the wave, walk your real self over and land the
+            easiest hook of your life.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Play the hero and read the tips. The best way to beat a Pudge is to
+            become the Pudge. You put Pudge into a cup, he becomes the cup, you
+            put Pudge into a teapot, he becomes the teapot. Be Pudge, my friend.
+          </li>
+          <li>
+            Check Pudge's boots. If he's running at you with Rot and has
+            Tranquils, you should right click him once to break his boots before
+            fleeing.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Pudge;

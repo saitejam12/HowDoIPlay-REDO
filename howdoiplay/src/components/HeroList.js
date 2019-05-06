@@ -12,8 +12,120 @@ import Bane from "./tips/Bane";
 import Batrider from "./tips/Batrider";
 import Beastmaster from "./tips/Beastmaster";
 import Bloodseeker from "./tips/Bloodseeker";
+import BountyHunter from "./tips/BountyHunter";
+import Brewmaster from "./tips/Brewmaster";
+import Bristleback from "./tips/Bristleback";
+import Broodmother from "./tips/Broodmother";
+import CentaurWarrunner from "./tips/CentaurWarrunner";
+import ChaosKnight from "./tips/ChaosKnight";
+import Chen from "./tips/Chen";
+import Clinkz from "./tips/Clinkz";
+import Clockwerk from "./tips/Clockwerk";
+import CrystalMaiden from "./tips/CrystalMaiden";
+import DarkSeer from "./tips/DarkSeer";
+import DarkWillow from "./tips/DarkWillow";
+import Dazzle from "./tips/Dazzle";
+import DeathProphet from "./tips/DeathProphet";
+import Disruptor from "./tips/Disruptor";
+import Doom from "./tips/Doom";
+import DragonKnight from "./tips/DragonKnight";
+import DrowRanger from "./tips/DrowRanger";
+import EarthSpirit from "./tips/EarthSpirit";
+import Earthshaker from "./tips/Earthshaker";
+import ElderTitan from "./tips/ElderTitan";
+import EmberSpirit from "./tips/EmberSpirit";
+import Enchantress from "./tips/Enchantress";
+import Enigma from "./tips/Enigma";
+import FacelessVoid from "./tips/FacelessVoid";
+import Grimstroke from "./tips/Grimstroke";
+import Gyrocopter from "./tips/Gyrocopter";
+import Huskar from "./tips/Huskar";
+import Invoker from "./tips/Invoker";
+import Io from "./tips/Io";
+import Jakiro from "./tips/Jakiro";
+import Juggernaut from "./tips/Juggernaut";
+import KeeperOfTheLight from "./tips/KeeperOfTheLight";
+import Kunkka from "./tips/Kunkka";
+import LegionCommander from "./tips/LegionCommander";
+import Leshrac from "./tips/Leshrac";
+import Lich from "./tips/Lich";
+import Lifestealer from "./tips/Lifestealer";
+import Lina from "./tips/Lina";
+import Lion from "./tips/Lion";
+import LoneDruid from "./tips/LoneDruid";
+import Luna from "./tips/Luna";
+import Lycan from "./tips/Lycan";
+import Magnus from "./tips/Magnus";
+import Mars from "./tips/Mars";
+import Medusa from "./tips/Medusa";
+import Meepo from "./tips/Meepo";
+import Mirana from "./tips/Mirana";
+import MonkeyKing from "./tips/MonkeyKing";
+import Morphling from "./tips/Morphling";
+import NagaSiren from "./tips/NagaSiren";
+import NaturesProphet from "./tips/NaturesProphet";
+import Necrophos from "./tips/Necrophos";
+import NightStalker from "./tips/NightStalker";
+import NyxAssassin from "./tips/NyxAssassin";
+import OgreMagi from "./tips/OgreMagi";
+import Omniknight from "./tips/Omniknight";
+import Oracle from "./tips/Oracle";
+import OutworldDevourer from "./tips/OutworldDevourer";
+import Pangolier from "./tips/Pangolier";
+import PhantomAssassin from "./tips/PhantomAssassin";
+import PhantomLancer from "./tips/PhantomLancer";
+import Phoenix from "./tips/Phoenix";
+import Puck from "./tips/Puck";
+import Pudge from "./tips/Pudge";
+import Pugna from "./tips/Pugna";
+import QueenOfPain from "./tips/QueenOfPain";
+import Razor from "./tips/Razor";
+import Riki from "./tips/Riki";
+import Rubick from "./tips/Rubick";
+import SandKing from "./tips/SandKing";
+import ShadowDemon from "./tips/ShadowDemon";
+import ShadowFiend from "./tips/ShadowFiend";
+import ShadowShaman from "./tips/ShadowShaman";
+import Silencer from "./tips/Silencer";
+import SkywrathMage from "./tips/SkywrathMage";
+import Slardar from "./tips/Slardar";
+import Slark from "./tips/Slark";
+import Sniper from "./tips/Sniper";
+import Spectre from "./tips/Spectre";
+import SpiritBreaker from "./tips/SpiritBreaker";
+import StormSpirit from "./tips/StormSpirit";
+import Sven from "./tips/Sven";
+import Techies from "./tips/Techies";
+import TemplarAssassin from "./tips/TemplarAssassin";
+import Terrorblade from "./tips/Terrorblade";
+import Tidehunter from "./tips/Tidehunter";
+import Timbersaw from "./tips/Timbersaw";
+import Tinker from "./tips/Tinker";
+import Tiny from "./tips/Tiny";
+import TreantProtector from "./tips/TreantProtector";
+import TrollWarlord from "./tips/TrollWarlord";
+import Tusk from "./tips/Tusk";
+import Underlord from "./tips/Underlord";
+import Undying from "./tips/Undying";
+import Ursa from "./tips/Ursa";
+import VengefulSpirit from "./tips/VengefulSpirit";
+import Venomancer from "./tips/Venomancer";
+import Viper from "./tips/Viper";
+import Visage from "./tips/Visage";
+import Warlock from "./tips/Warlock";
+import Weaver from "./tips/Weaver";
+import Windranger from "./tips/Windranger";
+import WinterWyvern from "./tips/WinterWyvern";
+import WitchDoctor from "./tips/WitchDoctor";
+import WraithKing from "./tips/WraithKing";
+import Zeus from "./tips/Zeus";
 
 //Rendered Component
+
+const OnLoad = () => {
+  return <div />;
+};
+
 export default class HeroList extends Component {
   render() {
     return (
@@ -21,17 +133,13 @@ export default class HeroList extends Component {
         <div className="grey">
           <div className="tipcontainer">
             <Switch>
+              <Route exact path="/" component={OnLoad} />
               <Route path="/Abaddon" component={Abaddon} />
               <Route path="/Alchemist" component={Alchemist} />
               <Route path="/AncientApparition" component={AncientApparition} />
               <Route path="/AntiMage" component={AntiMage} />
               <Route path="/ArcWarden" component={ArcWarden} />
               <Route path="/Axe" component={Axe} />
-              <Route path="/Bane" component={Bane} />
-              <Route path="/Batrider" component={Batrider} />
-              <Route path="/Beastmaster" component={Beastmaster} />
-              <Route path="/Bloodseeker" component={Bloodseeker} />
-              {/* 
               <Route path="/Bane" component={Bane} />
               <Route path="/Batrider" component={Batrider} />
               <Route path="/Beastmaster" component={Beastmaster} />
@@ -55,7 +163,7 @@ export default class HeroList extends Component {
               <Route path="/DragonKnight" component={DragonKnight} />
               <Route path="/DrowRanger" component={DrowRanger} />
               <Route path="/EarthSpirit" component={EarthSpirit} />
-              <Route path="/EarthShaker" component={EarthShaker} />
+              <Route path="/Earthshaker" component={Earthshaker} />
               <Route path="/ElderTitan" component={ElderTitan} />
               <Route path="/EmberSpirit" component={EmberSpirit} />
               <Route path="/Enchantress" component={Enchantress} />
@@ -85,7 +193,64 @@ export default class HeroList extends Component {
               <Route path="/Meepo" component={Meepo} />
               <Route path="/Mirana" component={Mirana} />
               <Route path="/MonkeyKing" component={MonkeyKing} />
-              <Route path="/Morphling" component={Morphling} /> */}
+              <Route path="/Morphling" component={Morphling} />
+              <Route path="/NagaSiren" component={NagaSiren} />
+              <Route path="/NaturesProphet" component={NaturesProphet} />
+              <Route path="/Necrophos" component={Necrophos} />
+              <Route path="/NightStalker" component={NightStalker} />
+              <Route path="/NyxAssassin" component={NyxAssassin} />
+              <Route path="/OgreMagi" component={OgreMagi} />
+              <Route path="/Omniknight" component={Omniknight} />
+              <Route path="/Oracle" component={Oracle} />
+              <Route path="/OutworldDevourer" component={OutworldDevourer} />
+              <Route path="/Pangolier" component={Pangolier} />
+              <Route path="/PhantomAssassin" component={PhantomAssassin} />
+              <Route path="/PhantomLancer" component={PhantomLancer} />
+              <Route path="/Phoenix" component={Phoenix} />
+              <Route path="/Puck" component={Puck} />
+              <Route path="/Pudge" component={Pudge} />
+              <Route path="/Pugna" component={Pugna} />
+              <Route path="/QueenOfPain" component={QueenOfPain} />
+              <Route path="/Razor" component={Razor} />
+              <Route path="/Riki" component={Riki} />
+              <Route path="/Rubick" component={Rubick} />
+              <Route path="/SandKing" component={SandKing} />
+              <Route path="/ShadowDemon" component={ShadowDemon} />
+              <Route path="/ShadowFiend" component={ShadowFiend} />
+              <Route path="/ShadowShaman" component={ShadowShaman} />
+              <Route path="/Silencer" component={Silencer} />
+              <Route path="/SkywrathMage" component={SkywrathMage} />
+              <Route path="/Slardar" component={Slardar} />
+              <Route path="/Slark" component={Slark} />
+              <Route path="/Sniper" component={Sniper} />
+              <Route path="/Spectre" component={Spectre} />
+              <Route path="/SpiritBreaker" component={SpiritBreaker} />
+              <Route path="/StormSpirit" component={StormSpirit} />
+              <Route path="/Sven" component={Sven} />
+              <Route path="/Techies" component={Techies} />
+              <Route path="/TemplarAssassin" component={TemplarAssassin} />
+              <Route path="/Terrorblade" component={Terrorblade} />
+              <Route path="/Tidehunter" component={Tidehunter} />
+              <Route path="/Timbersaw" component={Timbersaw} />
+              <Route path="/Tinker" component={Tinker} />
+              <Route path="/Tiny" component={Tiny} />
+              <Route path="/TreantProtector" component={TreantProtector} />
+              <Route path="/TrollWarlord" component={TrollWarlord} />
+              <Route path="/Tusk" component={Tusk} />
+              <Route path="/Underlord" component={Underlord} />
+              <Route path="/Undying" component={Undying} />
+              <Route path="/Ursa" component={Ursa} />
+              <Route path="/VengefulSpirit" component={VengefulSpirit} />
+              <Route path="/Venomancer" component={Venomancer} />
+              <Route path="/Viper" component={Viper} />
+              <Route path="/Visage" component={Visage} />
+              <Route path="/Warlock" component={Warlock} />
+              <Route path="/Weaver" component={Weaver} />
+              <Route path="/Windranger" component={Windranger} />
+              <Route path="/WinterWyvern" component={WinterWyvern} />
+              <Route path="/WitchDoctor" component={WitchDoctor} />
+              <Route path="/WraithKing" component={WraithKing} />
+              <Route path="/Zeus" component={Zeus} />
 
               <Route component={NotFound404} />
             </Switch>
@@ -213,7 +378,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Centaur Warrunner"
-                to="/Centaur+Warrunner"
+                to="/CentaurWarrunner"
               >
                 <span className="herolist__hero__name">Centaur Warrunner</span>
               </Link>
@@ -222,7 +387,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Chaos Knight"
-                to="/Chaos+Knight"
+                to="/ChaosKnight"
               >
                 <span className="herolist__hero__name">Chaos Knight</span>
               </Link>
@@ -254,7 +419,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Crystal Maiden"
-                to="/Crystal+Maiden"
+                to="/CrystalMaiden"
               >
                 <span className="herolist__hero__name">Crystal Maiden</span>
               </Link>
@@ -263,7 +428,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Dark Seer"
-                to="/Dark+Seer"
+                to="/DarkSeer"
               >
                 <span className="herolist__hero__name">Dark Seer</span>
               </Link>
@@ -272,7 +437,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Dark Willow"
-                to="/Dark+Willow"
+                to="/DarkWillow"
               >
                 <span className="herolist__hero__name">Dark Willow</span>
               </Link>
@@ -290,7 +455,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Death Prophet"
-                to="/Death+Prophet"
+                to="/DeathProphet"
               >
                 <span className="herolist__hero__name">Death Prophet</span>
               </Link>
@@ -313,7 +478,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Dragon Knight"
-                to="/Dragon+Knight"
+                to="/DragonKnight"
               >
                 <span className="herolist__hero__name">Dragon Knight</span>
               </Link>
@@ -322,7 +487,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Drow Ranger"
-                to="/Drow+Ranger"
+                to="/DrowRanger"
               >
                 <span className="herolist__hero__name">Drow Ranger</span>
               </Link>
@@ -331,7 +496,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Earth Spirit"
-                to="/Earth+Spirit"
+                to="/EarthSpirit"
               >
                 <span className="herolist__hero__name">Earth Spirit</span>
               </Link>
@@ -349,7 +514,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Elder Titan"
-                to="/Elder+Titan"
+                to="/ElderTitan"
               >
                 <span className="herolist__hero__name">Elder Titan</span>
               </Link>
@@ -358,7 +523,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Ember Spirit"
-                to="/Ember+Spirit"
+                to="/EmberSpirit"
               >
                 <span className="herolist__hero__name">Ember Spirit</span>
               </Link>
@@ -385,7 +550,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Faceless Void"
-                to="/Faceless+Void"
+                to="/FacelessVoid"
               >
                 <span className="herolist__hero__name">Faceless Void</span>
               </Link>
@@ -453,7 +618,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Keeper of the Light"
-                to="/Keeper+of+the+Light"
+                to="/KeeperOfTheLight"
               >
                 <span className="herolist__hero__name">
                   Keeper of the Light
@@ -473,7 +638,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Legion Commander"
-                to="/Legion+Commander"
+                to="/LegionCommander"
               >
                 <span className="herolist__hero__name">Legion Commander</span>
               </Link>
@@ -515,7 +680,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Lone Druid"
-                to="/Lone+Druid"
+                to="/LoneDruid"
               >
                 <span className="herolist__hero__name">Lone Druid</span>
               </Link>
@@ -571,7 +736,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Monkey King"
-                to="/Monkey+King"
+                to="/MonkeyKing"
               >
                 <span className="herolist__hero__name">Monkey King</span>
               </Link>
@@ -589,7 +754,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Naga Siren"
-                to="/Naga+Siren"
+                to="/NagaSiren"
               >
                 <span className="herolist__hero__name">Naga Siren</span>
               </Link>
@@ -598,7 +763,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Nature's Prophet"
-                to="/Nature's+Prophet"
+                to="/Nature'sProphet"
               >
                 <span className="herolist__hero__name">Nature's Prophet</span>
               </Link>
@@ -616,7 +781,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Night Stalker"
-                to="/Night+Stalker"
+                to="/NightStalker"
               >
                 <span className="herolist__hero__name">Night Stalker</span>
               </Link>
@@ -625,7 +790,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Nyx Assassin"
-                to="/Nyx+Assassin"
+                to="/NyxAssassin"
               >
                 <span className="herolist__hero__name">Nyx Assassin</span>
               </Link>
@@ -634,7 +799,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Ogre Magi"
-                to="/Ogre+Magi"
+                to="/OgreMagi"
               >
                 <span className="herolist__hero__name">Ogre Magi</span>
               </Link>
@@ -661,7 +826,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Outworld Devourer"
-                to="/Outworld+Devourer"
+                to="/OutworldDevourer"
               >
                 <span className="herolist__hero__name">Outworld Devourer</span>
               </Link>
@@ -679,7 +844,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Phantom Assassin"
-                to="/Phantom+Assassin"
+                to="/PhantomAssassin"
               >
                 <span className="herolist__hero__name">Phantom Assassin</span>
               </Link>
@@ -688,7 +853,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Phantom Lancer"
-                to="/Phantom+Lancer"
+                to="/PhantomLancer"
               >
                 <span className="herolist__hero__name">Phantom Lancer</span>
               </Link>
@@ -721,7 +886,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Queen of Pain"
-                to="/Queen+of+Pain"
+                to="/QueenOfPain"
               >
                 <span className="herolist__hero__name">Queen of Pain</span>
               </Link>
@@ -749,7 +914,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Sand King"
-                to="/Sand+King"
+                to="/SandKing"
               >
                 <span className="herolist__hero__name">Sand King</span>
               </Link>
@@ -758,7 +923,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Shadow Demon"
-                to="/Shadow+Demon"
+                to="/ShadowDemon"
               >
                 <span className="herolist__hero__name">Shadow Demon</span>
               </Link>
@@ -767,7 +932,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Shadow Fiend"
-                to="/Shadow+Fiend"
+                to="/ShadowFiend"
               >
                 <span className="herolist__hero__name">Shadow Fiend</span>
               </Link>
@@ -776,7 +941,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Shadow Shaman"
-                to="/Shadow+Shaman"
+                to="/ShadowShaman"
               >
                 <span className="herolist__hero__name">Shadow Shaman</span>
               </Link>
@@ -794,7 +959,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Skywrath Mage"
-                to="/Skywrath+Mage"
+                to="/SkywrathMage"
               >
                 <span className="herolist__hero__name">Skywrath Mage</span>
               </Link>
@@ -835,7 +1000,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Spirit Breaker"
-                to="/Spirit+Breaker"
+                to="/SpiritBreaker"
               >
                 <span className="herolist__hero__name">Spirit Breaker</span>
               </Link>
@@ -844,7 +1009,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Storm Spirit"
-                to="/Storm+Spirit"
+                to="/StormSpirit"
               >
                 <span className="herolist__hero__name">Storm Spirit</span>
               </Link>
@@ -867,7 +1032,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Templar Assassin"
-                to="/Templar+Assassin"
+                to="/TemplarAssassin"
               >
                 <span className="herolist__hero__name">Templar Assassin</span>
               </Link>
@@ -917,7 +1082,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Treant Protector"
-                to="/Treant+Protector"
+                to="/TreantProtector"
               >
                 <span className="herolist__hero__name">Treant Protector</span>
               </Link>
@@ -926,7 +1091,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Troll Warlord"
-                to="/Troll+Warlord"
+                to="/TrollWarlord"
               >
                 <span className="herolist__hero__name">Troll Warlord</span>
               </Link>
@@ -963,7 +1128,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Vengeful Spirit"
-                to="/Vengeful+Spirit"
+                to="/VengefulSpirit"
               >
                 <span className="herolist__hero__name">Vengeful Spirit</span>
               </Link>
@@ -1022,7 +1187,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Winter Wyvern"
-                to="/Winter+Wyvern"
+                to="/WinterWyvern"
               >
                 <span className="herolist__hero__name">Winter Wyvern</span>
               </Link>
@@ -1031,7 +1196,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Witch Doctor"
-                to="/Witch+Doctor"
+                to="/WitchDoctor"
               >
                 <span className="herolist__hero__name">Witch Doctor</span>
               </Link>
@@ -1040,7 +1205,7 @@ export default class HeroList extends Component {
               <Link
                 className="herolist__hero__link"
                 title="Wraith King"
-                to="/Wraith+King"
+                to="/WraithKing"
               >
                 <span className="herolist__hero__name">Wraith King</span>
               </Link>

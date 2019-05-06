@@ -1,0 +1,83 @@
+import React from "react";
+
+const Slardar = () => {
+  return (
+    <div class="hero hero-slardar" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMqaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjUtYzAyMSA3OS4xNTQ5MTEsIDIwMTMvMTAvMjktMTE6NDc6MTYgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDg0OTcxMTFGNDcwMTFFNkFFMDJDMTQzMTUwMjEwQkQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDg0OTcxMTJGNDcwMTFFNkFFMDJDMTQzMTUwMjEwQkQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0ODQ5NzEwRkY0NzAxMUU2QUUwMkMxNDMxNTAyMTBCRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0ODQ5NzExMEY0NzAxMUU2QUUwMkMxNDMxNTAyMTBCRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHB8fHx8fHx8fHx8BBwcHDQwNGBAQGBoVERUaHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fH//AABEIABsAMAMBEQACEQEDEQH/xACBAAADAQEBAAAAAAAAAAAAAAAFBgcEAQIBAAIDAQEAAAAAAAAAAAAAAAEDAgQFAAYQAAECBQIDBgMJAAAAAAAAAAECAwAREgQFIQZRIhMxQWFxgTORMgfBQnKCIxQ0FRYRAAICAgICAgMAAAAAAAAAAAABEQIhAzEEYRJBIkITBf/aAAwDAQACEQMRAD8AQ8DeppGsautmRsqUbZe27DcN/U+70xbiolJ5iOEHds9UM6upuwR3Xu9rBsqxeEtSCDQXpaHiZwhbPVS1JfvRXtBNdyboduXm/wB05W3bioNpmZrMO7Mbao7o3/Rd2iWCrK4byiQ7dLoaq5WZ6DzjN9bJxVYN3XsrtU3tk7fhFq9QFpKT8pBnpGimec3amrMXMLlgiQJ0hOu5C9B72vnLvH5Fq9sUKWVcrgB5ZHjEOzbA/rJrIwZFO4tx3LSGeiykqkriJ95EIrtcQMeuXJvyv0qVY2KgHw5cupmVkCWvCJ6tr4YXrUE9fwjeMvw1ftlKB2UmYPjpEt95UJwWuhWbS1KM2TYtbhRNsqkpHKDpOJdeuPIP6WbJrgmlveKRKRhSZTdR62nnFm1cqcoCSEy4zjrr2H6EoaKTaXVjYYtnKru6XkEBSR3J4xCrzkNvAq/Ubfe4mHmbqxyCn8e6nlcQdB4RKl68Rkhavy+CbPbuzN46f1lTV2qJmY51THV7Dqorg9JyWRQpKnnVKT5w2n1YjZstbkAJ9YSRGrbf8dP4+77YNuCx1+WNu4av86qXVl0zPp00/mnr8Iq/kCwj2dX9K579OvvU9D0+9OGPkC4Atp7x7PSHoSzc9OkfN6ylBAf/2Q=="
+                data-src="./assets/media/heroes/large/slardar.jpg"
+                alt="Slardar"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Slardar</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            You can cast Guardian Sprint while TPing and it won't break the
+            channel.
+          </li>
+          <li>
+            Once maxed, Sprinting in the river will give you bonus move speed.
+          </li>
+          <li>
+            Slithereen Crush and Bash procs deal physical damage, making them
+            work very well with Corrosive Haze's armor reduction.
+          </li>
+          <li>
+            Cancel Crush's animation. You can usually tell when you're not going
+            to land it.
+          </li>
+          <li>
+            Increase your Bash attack counter on jungle or lane creeps. The buff
+            lasts indefinitely and won't increase/proc on building or ward
+            targets.
+          </li>
+          <li>
+            Corrosive Haze can be cast on siege creeps to help quickly bring
+            them down during a push.
+          </li>
+          <li>
+            Corrosive Haze lets your team take Rosh extremely early in the game.
+          </li>
+          <li>
+            Corrosive Haze's true sight isn't some sort of
+            get-out-of-buying-detection-free card. The way to counter invis
+            heroes is to know where they are before they know you know where
+            they are.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>Slardar's Sprint can be purged.</li>
+          <li>
+            Juke left or right if Slardar is chasing you and trying to Crush
+            your Slithereen. The AoE on the stun is tiny and the cast animation
+            is lengthy.
+          </li>
+          <li>
+            Corrosive Haze allows the enemy team to take Roshan super early.
+            Keep the pit warded up tight.
+          </li>
+          <li>You can cast Corrosive Haze on couriers.</li>
+          <li>
+            Like with Dust or Track, Corrosive Haze can be purged off by Lotus
+            Orb, Guardian Greaves, Manta Style, or Slark's Dark Pact.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Slardar;

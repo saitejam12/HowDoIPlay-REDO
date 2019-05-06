@@ -1,0 +1,139 @@
+import React from "react";
+
+const EarthSpirit = () => {
+  return (
+    <div class="hero hero-earth-spirit" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAABgcICQX/xAA1EAAABQMCAwQGCwAAAAAAAAABAgMEBQAGEQcSCBMhIjFRcRQjQUKSoRUkMjU2RGGBkbGy/8QAGwEAAgMBAQEAAAAAAAAAAAAABAUCAwYBAAf/xAApEQABBAECBAYDAQAAAAAAAAABAAIDBBEFIQYSEyIVIzEyM0EUUnGB/9oADAMBAAIRAxEAPwDOe1uBW/Xi3PvKbiLSiA/NrmEphHwApwAflXWYccJc/U4h6Ikt/SbRrT683yMrOkuhjb2wy5u8HSu4OwToHSrWsaXYVbrb3DIWltp8aLRjCM421IXlxsYkRFFuAdkgAH2Q/mrtQ1WCtgYQlStNLkkpba0cT0Hf8WeBu+JPyHafqkQ9xQA6HCutvR2oCMKLq8sUwIKiZ2+0uu+DfRt3W6nIPmi3JYXEgO1yVL2CbrkcZ8aSy2uicO3TFzngZalo64ftMjqOkkNQXDBTYCrEyxcpmAfdERIH+qh4lHlebcdjcInuq+tQ9QHa6vprx8mqO4UmwCBPhJV8EkcHvKRx12A5cgy24XlJyMpOPUmibU206Kg+sMbPhiiYpW4yPtOHt5x2q47AlbUu+3Y9lA263jlmSRUnDlPH1k3TtjisrxBE/YlW6RzNe4FCWsSUTbbr6OfRjYxjpAoZ8ON5PZgKYaVFIIAc7Ie6HOsbKTkW7JxNNk45Yy7Zxk4m889PlS7ULBDXEox+zURLQ+FSpYyGMiA1n/zdsobKJOF65XenVyp3VcEUWShCJGIpHOSZKcDedbHVaYtDlae5Lb8wa4cq4urrO3rwu6bnbNMSJaP1t6cKobAAofv2/pUKPXrN6coRdSz27pxcNz+atZZ/GLsm7t22L2UzYMXAgPUBwNEa5PH0Wkq+nLmUkId4gHkndWoURGCnhdwIc5JPuAoDke4AqMV1kOnGRdefNcSllYcekrd8o2TLlKIymbzAOv8AdY7W5yKrXfsrJzhgTLXYI73brHUOynmsyJjs1C5T0LHsC6DFcAyaA4Ew5X5Zd/xYzX0GNx8TWdkPes+5gxgWUEBEByPWtfc+k4oqt+ElRRe5FAXOdYDtjAbeO7IbTeNZjiAeSvP7XHC6t8FA2uLvcADy26vLz7Oo91ItSONK/wBUmnKR+lf4gvs3velqdf3ClvEXwQfxH2va1MCT+71fOkMPyIdvqv/Z"
+                data-src="./assets/media/heroes/large/earth_spirit.jpg"
+                alt="Earth Spirit"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Earth Spirit</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            You can Boulder Smash allies out of Chronosphere if they're
+            reachable on the edge. You can Boulder Smash allies out of leashes
+            like Slark's Pounce or Grimstroke's Soulbind.
+          </li>
+          <li>
+            If an enemy is standing on you trying to block your Rolling Boulder
+            escape, use Boulder Smash to boot the enemy away first and then roll
+            away.
+          </li>
+          <li>
+            You can drop a Remnant while you're revving up in Rolling Boulder.
+          </li>
+          <li>
+            You can double tap the Remnant hotkey to automatically drop one in
+            front of yourself.
+          </li>
+          <li>
+            You can use items while Rolling (except Blink and TP scrolls). This
+            can be useful for Shiva's, Scythe of Vyse/Orchid, Eul's, and wards.
+          </li>
+          <li>
+            If you use Force while rolling, you'll get the Force but the Boulder
+            will break apart. If you use a Force Staff while it's revving up,
+            you'll get the Force and continue rolling, but you'll need to place
+            the Remnant out of the Force distance otherwise your Boulder won't
+            consume the Remnant.
+          </li>
+          <li>You can pick up runes while Rolling.</li>
+          <li>
+            You can use/target spells while you're in your Boulder. This means
+            that you can Smash an ally while you're rolling into them or do a
+            drive-by Gripping.
+          </li>
+          <li>
+            When you hit an enemy hero with Rolling Boulder you'll always appear
+            behind them and at the same angle from which you approached them.
+            You can target your Smash on them while Rolling and you'll
+            immediately kick them back along the path you came.
+          </li>
+          <li>Rolling Boulder destroys trees along the path that you roll.</li>
+          <li>
+            After your Roll starts moving, your path is calculated regardless if
+            you get disabled mid-Roll or not. If you get disabled mid-Roll, but
+            you were
+            <i>going to</i> connect on a hero if you kept going, you'll
+            immediately land where you would've landed and stun the enemy hero.
+            This can be used to Roll through a Black Hole and stun Enigma or
+            Roll through a Chronosphere if you can land on an enemy on the other
+            side.
+          </li>
+          <li>
+            Neither Smash nor Grip can interrupt ally or enemy channels when
+            directly targeted on the hero.
+          </li>
+          <li>
+            Reduce, reuse, recycle. Use the same Remnant you just Gripped to
+            Roll into. Smash a Remnant into an enemy then spam Grip to catch it
+            while it's still moving.
+          </li>
+          <li>
+            The disadvantage of recycling is that you end up stacking your total
+            disables on top of each other (some of the silence duration is
+            wasted because the enemy is stunned anyway). If you have Remnants to
+            burn, stagger your spells.
+          </li>
+          <li>
+            The trigger radius on a Remnant from a magnetized unit is larger
+            than the activation/refresh radius to Magnetize new enemies, so
+            place fresh Remnants closer to un-Magnetized enemies.
+          </li>
+          <li>
+            The Magnetize DoT lasts for 6 seconds on an enemy. Space out
+            re-Magnetizations to squeeze out the most damage.
+          </li>
+          <li>
+            If any one Magnetized target gets silenced from Grip or slowed by
+            Smash, all other Magnetized targets will receive the same debuff.
+          </li>
+          <li>
+            Rolling into an Enchant Remnant (Agh's skill) will immediately take
+            the hero out of Remnant form.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Kaolin Showdown isn't invulnerable inside the Rolling Boulder. He's
+            fully targetable and can be stunned and damaged as expected.
+          </li>
+          <li>
+            When killing an Earth Spirit, stand in front of his Rolling Boulder
+            and make him hit you to prevent him from Rolling out of the
+            situation.
+          </li>
+          <li>
+            Earth Spirit cannot cast Rolling Boulder when rooted or leashed.
+          </li>
+          <li>
+            Earth Spirit needs a lot of time to recharge Remnants after a team
+            fight. Keep high aggression when playing against an Earth Spirit.
+          </li>
+          <li>
+            Magnetize deals some substantial amounts of hurt. Don't stand next
+            to your team if you're Magnetized and they're not.
+          </li>
+          <li>Magnetize can be dispelled.</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default EarthSpirit;

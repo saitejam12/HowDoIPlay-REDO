@@ -1,0 +1,161 @@
+import React from "react";
+
+const Ursa = () => {
+  return (
+    <div class="hero hero-ursa" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAABgcEBQgC/8QALRAAAQMDAwMCBQUBAAAAAAAAAQIDBAAFBhESIQcxQRNRFCQyNFIWFyIjQrH/xAAaAQEBAQADAQAAAAAAAAAAAAAFBAMAAQYC/8QAIREAAgEDBQEBAQAAAAAAAAAAAAECAwQRBRIhIjFBMkL/2gAMAwEAAhEDEQA/AMDIL5GixHrrdp7UKI0NVvrOlJvEUSxTkyP3XqjjBsl1/SXxd9vMlstrmNg7GUnUHkaf9rGNWT5SLIWy/phfpb1bxrB4dyttxxx1M2aovvXf6vUV3Ke6qhr3dWos+IYo2VKD7cshXULrHkHUq/Lgx2lt21h70rdB9z7mt9yjHGTlphTcsciKz2BOLLh3K5xyu6t7Xju7tHwRQ1XUZbsR8HlYRqLdM6JyXq/dLvYbfGizdFJQFKdJ5JApazrqrHP08rqVrK3nj4BLhdn88xudikxhL8icyS0r8VDzVcpZiE0+JHODGf8A7b2teNoWw4hl/wCGmMLRte3Dgq5A4rChdbeGi+cF6jBNxVkBcdgIWGthecka6ISB45rLUZtpbfCuxnHL3ehBLimLlFnQvWYlIVuSyoaE6f6GtEznJrDFaO3dlFNVlki9n5t1apDSdjpUaOlHA9SqZjg08/IPgoKg6+oJa12aHmktNk1MF1qKdLJUMPzeNjV5cvUtSVmK2Swk/StR8aGnYPMjxcSVdT41ozu8HNX5MK0qlNn1oKNNVL79hUlx1ngXt4xayyJW67Kt8oxSZL1v3/bJVtDnsD24rvOUTNNMot9u8c28T50llu+yNrcCBG+mOwPyI81BOnzwJ0ajx2NBa5z/APY5vUVOHk1NUiL0KjMe9zm0s/M6q3HgVXYrDD9Wn0QsyJREZGhIpH6eYh6ClkuNH1CV7U/x3c6Vnd/Biz8YYVwtWnGlTo2aPIJUsFR1Pua6Z9IYwO+njSopidAP5J9yB4CeBVtn+QnVf2f/2Q=="
+                data-src="./assets/media/heroes/large/ursa.jpg"
+                alt="Ursa"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Ursa</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>
+            Earthshock's slow debuff lasts for nearly as long as the spell's
+            cooldown.
+          </li>
+          <li>You consume Overpower stacks on denial attacks.</li>
+          <li>
+            The duration on the Overpower buff is longer than the spell's
+            cooldown. Meaning that before you go in for a gank or into Rosh, you
+            should cast Overpower well in advance so a second cast is already in
+            the chamber when you need it.
+          </li>
+          <li>
+            When laning, try to keep Fury Swipe stacks up like you would
+            Batrider's Sticky Napalm, especially against melee heroes. Ursa has
+            very high base armor, so it can be worth tanking creep aggro to
+            build more Fury Swipe stacks.
+          </li>
+          <li>
+            Casting Enrage applies a{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://dota2.gamepedia.com/Dispel/Removable_debuffs"
+            >
+              basic dispel
+            </a>{" "}
+            on your hero. Use it to wipe off DoTs, or slows, or blinds, or
+            roots. If you get an Agh's, Enrage becomes a strong dispel allowing
+            you to purge off stuns as well.
+          </li>
+          <li>
+            TAKE THE ROSH TIMER WHEN YOU'RE PLAYING THIS GRIZZLY-ASS, POLAR-ASS,
+            BROWN-ASS, BLACK-ASS,
+            APPARENTLY-GIANT-PANDAS-ARE-ALSO-A-MEMBER-OF-THE-BEAR-FAMILY-ASS
+            HERO.
+            <br />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <font face="courier new">
+              bind "b" "chatwheel_say 57" //Current Time
+            </font>
+            <br />
+            <br />
+            Paste that in your
+            <font face="courier new">
+              {" "}
+              <i>dota 2 beta\game\dota\cfg\autoexec.cfg</i>{" "}
+            </font>
+            (create the file if it's not already there) and you can note the
+            time whenever you press B. Ballers, you're putting numbers on the
+            boards.
+          </li>
+          <li>
+            If you're too lazy to do that, then alt+click on the clock or enable
+            'Current Time' in your chat wheel. If your team has a habit of
+            pinging the clock for bounty runes and you think you'll lose the
+            Rosh time, just type it in the chat and press Ctrl+A and Ctrl+C to
+            preserve it in your clipboard.
+          </li>
+          <li>
+            I legit can't stress enough how important it is to keep track of
+            Rosh as an Ursa, so as a third tip you can also add:
+            <br />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <font face="courier new">
+              dota_hud_chat_history_lines 40 //More Chat Lines
+            </font>
+            <br />
+            <br />
+            Into your{" "}
+            <font face="courier new">
+              <i>autoexec.cfg</i>
+            </font>{" "}
+            to allow the chat history to scroll up further. Just be aware that
+            increasing the number too much will make your game lag every time
+            you open chat.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Ursa has no stuns, so keep your finger on the TP when you see him
+            moseying on down towards you.
+          </li>
+          <li>
+            You really need at least one Force Staff on your team against Ursa,
+            preferably more. After that, Eul's, Scythe, and Ghost Scepter are
+            all good support items against Ursa.
+          </li>
+          <li>
+            Keep eyes in and on the Rosh pit when you know it's up. If you have
+            a spell that can give you lasting vision inside the pit (Techies
+            mines, TA traps), get one in before his first Rosh.
+          </li>
+          <li>
+            Good carry items against Ursa are Basher/Abyssal, Manta, Halberd,
+            and sometimes Ethereal Blade.
+          </li>
+          <li>
+            Ursa can purge himself with Enrage, heroes with unpurgeable
+            abilities like Invoker's Deafening Blast, Viper's Viper Strike, or
+            Bloodseeker's Rupture quite useful. Enrage also can't purge off the
+            Heaven's Halberd disarm.
+          </li>
+          <li>
+            Ursa's Agh's allows him to Enrage out of stuns (like Abaddon's
+            Borrowed Time), but he still won't be able to ult when hexed or
+            silenced.
+          </li>
+          <li>
+            You can purge Overpower stacks off of Ursa, making heroes like
+            Shadow Demon or Oracle fairly good.
+          </li>
+          <li>
+            Shadow Demon is especially good since Enrage can't dispel Demonic
+            Purge, so not only are you slowing Ursa to a crawl, but Overpower
+            will get insta-dispelled if he casts it.
+          </li>
+        </ul>
+        <div class="video-wrapper">
+          <iframe
+            title="Dealing with Ursa"
+            width="672"
+            height="420"
+            src="//www.youtube.com/embed/PGssQqi8b5w"
+            frameborder="0"
+            allowfullscreen="0"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Ursa;

@@ -1,0 +1,173 @@
+import React from "react";
+
+const Brewmaster = () => {
+  return (
+    <div class="hero hero-brewmaster" data-patch="684">
+      <div class="herotitle">
+        <span class="portrait">
+          <span class="portrait-frame">
+            <span class="portrait-frame-inner">
+              <img
+                class="portrait-img"
+                width="256"
+                height="144"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAAbADADAREAAhEBAxEB/8QAGgAAAwEAAwAAAAAAAAAAAAAABgcIBQQJCv/EADQQAAAFAgQEAgcJAAAAAAAAAAECAwQFAAYHERITCCExQRQiFSQyNFFxgRYjJTNhcqGx0f/EABoBAAMAAwEAAAAAAAAAAAAAAAQFBgEDBwL/xAArEQABBAECBgAFBQAAAAAAAAACAAEDBAURMQYSEyEiMhQVI0FxJEKBobH/2gAMAwEAAhEDEQA/AJoJcvn9uqbVTeiLwnk5iBcRRxL4guajFQexvhU/xBjHuxsQewqk4XzPy2fy9SRThA3uXC9u9u6bcqBFXIOnwOXcO/P/ACufxZCWlYaSF9CHdXWVCHKR8kjai6qaCx0iWD0G7u9YyOcLJ7rNmsmBSFHLPQc2ff5U8scYZKXyj2U2HDGPDxce6o6y+JhgvCSDl/GKeIj0TqFVR/KVKQPaKNeIeNmljLqB5shpuDXCUWjLxdPzDO+ftjaLe5FUzNyyChhRIbkOkKocEclmDqF90iz0IVLHSF9l5gEpdyusCaJTqHEegVQcyA5UQ3dLSdp2wL1BT8RHSC3wS1ZZBn9aAmviLuA7p3FiCGIZpdi2ZXRZ43FiHgPb787hpISEcUN1Jv1yD4hXI+IeV7LuP8q5wruEehLTbYD3njNAbitrMopWPT9W3ciruzEDl2z/AJpWFiWNuQH0ZMTOES5i7rFUv0tvRDbC67rJuO1rntNbcBy3IYya6BOoHMHUo08oUhiLm1YmfdC23aaNzAtNFdFj432hJWFFTbNwEVGE9WM2yy2zFDnXV8fl6UcDfZmXKbOEu2Jy76uumRjbcaq7k4m3mKzxlDpbrmYNyMqp2yEQ6VmzYjZiZtm/1F1Kp9QNd3f+ks8VbiSc2yW049qL9+cwLzD4OYEEOhc6mI5ggbz3JVuT6luVmD1BlkcPnEjP4NzrNpICd5a+9qkmIjmIgXoAB86Bu4uOz5NutMVs425VXjPiTxQxKuR3ddgXohBNWbgfDWyc2j7oORQDzB/VLJ6kFcWYg1RkLlL+5NeExYxJFve83iAxbyqD5gdqs/cJgZRIhgLltCIfpXqOvXIOcOzrXIcokwPsubwqjGXhb07aL8hlGKD4zhIp+u2Ywj3/AHVmMm5dFpnI4ZGMX7pCWeIp4bySqY7ap2x9apeRh5D1GqSw/wCkD8oeozfEGptjEyHtuTVOQh1TKn1KCGZh+tRmRJ/ilTUW+gpSl/eXY990edV1b1ZTFj2dOLh3MYcSoBITG2zq+dPPkPzCgM72rvoiMd7q/sS3TkG82gDhcENGWzrHTl5e1K43+lH+FU1oxeAndka8HRz+m7o8xvcy96JH3Urb9WX/2Q=="
+                data-src="./assets/media/heroes/large/brewmaster.jpg"
+                alt="Brewmaster"
+              />
+            </span>
+          </span>
+        </span>
+        <span class="name">Brewmaster</span>
+      </div>
+      <div class="tips">
+        <h1>Tips</h1>
+        <ul>
+          <li>Cinder Brew self-attacks can never be lethal.</li>
+          <li>
+            Cinder Brew works on Rosh. If you're lucky, he can even bash
+            himself.
+          </li>
+          <li>
+            You always gain net movement when casting Drunken Brawler. The
+            speeds always go 40% movement speed bonus in the first, third, and
+            fifth second, and a 20% movement speed slow in the second and fourth
+            second.
+          </li>
+          <li>
+            Any auras that your hero has will be carried through to your primary
+            Split panda. The primary Split panda order goes from Earth -> Storm
+            -> Fire. The primary Split panda's location is also where your hero
+            will return to when the ult ends.
+          </li>
+          <li>
+            The Earth Panda deals extra damage to structures and can receive
+            buffs like Alacrity or Bloodlust.
+          </li>
+          <li>
+            I don't care what the situation is, the Cyclone on the Storm Panda
+            will always be useful. Cyclone the support so that your teammates
+            won't waste time killing that squishy CM when they should be
+            focusing the carry. Cyclone that Omniknight so his whole team cries
+            at him for not ulting. Cyclone that PA who is slicing everyone to
+            shreds because the rest of her team is locking your team down.
+            Cyclone the roided up Sven and waste a whopping 6 seconds of God's
+            Strength. Then when he comes back down, wait two seconds for it to
+            come off cooldown and Cyclone his punk ass again.
+          </li>
+          <li>
+            After you pick someone to twister, think about Dispelling some
+            Magic.
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://dota2.gamepedia.com/Dispel/Removable_buffs"
+            >
+              Here's a long list of things you can basic dispel.
+            </a>
+          </li>
+          <li>
+            Dispel Magic also deals a ton of damage to all summoned units
+            (excluding Lone Druid's Spirit Bear and ward-type units) and
+            illusions.
+          </li>
+          <li>
+            Casting the Storm Panda's Dispel Magic on the Cyclone immediately
+            stop the Cyclone. Don't stand around watching the enemy spin for the
+            full duration if your team is ready to kill them, just dispel it.
+          </li>
+          <li>Dispel Magic can also end an enemy self-Eul's.</li>
+          <li>
+            The Cyclone lasts extra long against lesser creeps/summons. This
+            combined with the bonus damage to summons on Dispel Magic make
+            Brewmaster good at dealing with Necronomicons.
+          </li>
+          <li>
+            The Storm Panda's Wind Walk gives free bonus damage on its next
+            attack. You should easily be able to use it multiple times during
+            your ult if you pay attention to the cooldown. It's a lot of
+            physical damage that you may have been missing out on.
+          </li>
+          <li>
+            Attacks during the fade time of the Wind Walk apply the bonus damage
+            without losing the buff. So technically, you could get 4 Wind Walk
+            damage hits in 2 Wind Walk casts.
+          </li>
+          <li>
+            The Wind Walk also gives a massive move speed increase on the Storm
+            Panda. Use it if you're trying to catch an escaping enemy. Once you
+            catch up, cast the Cyclone. The Cyclone won't end even if your ult
+            ends.
+          </li>
+          <li>
+            Late game, Wind Walk will be your main escape mechanism because your
+            Fire Panda will go down as soon as someone so much as farts on it,
+            and the Earth Panda goes down surprisingly quickly once carries
+            start doling out big single target damage.
+          </li>
+          <li>
+            In high ground siege situations, sometimes you can consider
+            suiciding your Earth Panda in the enemy fountain after your Storm
+            Panda has already made a break for it.
+          </li>
+          <li>
+            Often times you'll be finishing your Primal Split only to have the
+            entire enemy team staring hungrily at your Earth Panda, waiting for
+            your return. If you have a Blink Dagger, position your Earth Panda
+            where you can get an effective Blink, and start mashing the item
+            hotkey. Just be sure to turn the Spirit to face the direction you
+            want to Blink in before Primal Split ends. This will avoid any turn
+            animation delay since Brewmaster faces the same direction that the
+            Spirit was last facing.
+          </li>
+        </ul>
+        <h1>Counters</h1>
+        <ul>
+          <li>
+            Brew is nearly impossible to kill 1v1 if you're a right clicker in
+            the early/mid game. Between Cinder Brew and Drunken Brawler, hitting
+            this guy is a miracle. And that's assuming Primal Split is down.
+          </li>
+          <li>
+            Sources of accuracy do not reduce the frequency of self-attacks
+            under Cinder Brew.
+          </li>
+          <li>
+            Bashes can proc on self-attacks. MKB pierce and accuracy can proc on
+            self-attacks. Desolator corruption can proc on self-attacks. Other
+            items like Crystalys/Daedalus crit, Maelstrom/Mjollnir lightning,
+            Skadi Cold Attack, Diffusal Mana Break, and lifesteal don't proc on
+            self-attacks.
+          </li>
+          <li>
+            Pretty much every carry should consider getting a BKB early on to
+            deal with the self-attack from Cinder Brew. Manta Style, Lotus Orb,
+            and Guardian Greaves can purge the debuff as well.
+          </li>
+          <li>
+            Kill the Fire Panda ASAP in the early game. This is the majority of
+            Brewmaster's damage once he splits.
+          </li>
+          <li>
+            Unlike Eul's, Brew's Cyclone does not apply any damage when you
+            land, so you can immediately Blink out.
+          </li>
+          <li>
+            You can left click the Spirits and check their buffs to see how much
+            time is remaining on the Split. This is relevant if you're trying to
+            drop some damage/disables on the Earth Panda to disable Brewmaster's
+            Blink as he returns.
+          </li>
+          <li>
+            SILENSILSILSILESILENSILENCESILENCE. Dude hates silences and hexes.
+            Primal Split has a cast time and hexes and some silences are
+            instant. If you have these on your team he'll likely have to cut his
+            Blink->Clap->Cinder->Split combo to just Blink->Split.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Brewmaster;
